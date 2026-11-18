@@ -2,23 +2,26 @@
 
 Prototipe platform wisata terpadu **Banda Aceh & Aceh Besar**: destinasi, penginapan, pemandu lokal, dan paket tour dalam satu aplikasi. Dibuat untuk tugas mata kuliah Digital Entrepreneurship.
 
-Stack: **Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · Prisma + SQLite**. Pembayaran hanya simulasi, tanpa layanan berbayar.
+Stack: **Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · Prisma + PostgreSQL**. Pembayaran hanya simulasi, tanpa layanan berbayar. Upload memakai Vercel Blob (OIDC store atau `BLOB_READ_WRITE_TOKEN`), atau folder lokal saat development.
+
+Demo: **https://atjehtrail.vercel.app**
 
 ## Menjalankan
 
-Prasyarat: Node.js 20+ dan npm.
+Prasyarat: Node.js 20+, npm, dan database PostgreSQL (Neon, Supabase, atau Postgres lokal).
 
 ```bash
 npm install
 cp .env.example .env
-npx prisma migrate dev --name init
-npx prisma db seed
+# isi DATABASE_URL dan DATABASE_URL_UNPOOLED di .env
+npm run db:deploy
+npm run db:seed
 npm run dev
 ```
 
 Buka http://localhost:3000.
 
-Reset cepat ke data seed:
+Reset cepat ke data seed (menghapus data yang ada):
 
 ```bash
 npm run db:reset
@@ -27,11 +30,31 @@ npm run db:reset
 Perintah lain:
 
 ```bash
-npm run build   # build produksi
+npm run build   # generate Prisma, migrate deploy, lalu build produksi
 npm run lint    # ESLint
 npm run db:seed # seed ulang tanpa hapus migrasi
 npm start       # jalankan hasil build
 ```
+
+## Deploy ke Vercel
+
+1. Import repo GitHub di [vercel.com/new](https://vercel.com/new).
+2. Buat **Postgres** (Neon) dari tab Storage, lalu hubungkan ke project.
+3. Buat **Blob** store (akses public) dari tab Storage.
+4. Pastikan environment berikut tersedia di Vercel:
+   - `DATABASE_URL` (pooled)
+   - `DATABASE_URL_UNPOOLED` (direct, untuk migrasi)
+   - `BLOB_STORE_ID` (otomatis saat Blob store dihubungkan; memakai OIDC)
+   - `BLOB_READ_WRITE_TOKEN` hanya jika memakai token statis
+5. Deploy. `npm run build` otomatis menjalankan `prisma migrate deploy`.
+6. Isi data contoh sekali dari lokal dengan environment produksi:
+   ```bash
+   vercel env pull .env.production.local --environment=production
+   set -a; source .env.production.local; set +a
+   npm run db:seed
+   ```
+
+Tanpa kredensial Blob, upload akan disimpan ke `public/uploads` (hanya cocok untuk development lokal).
 
 ## Akun demo
 
@@ -46,8 +69,8 @@ Tombol masuk sekali klik tersedia di halaman **Masuk** (tab Wisatawan / Calon mi
 
 1. Beranda → pilih destinasi (contoh **Masjid Raya Baiturrahman**).
 2. Detail destinasi → **Pesan sekarang**.
-3. Halaman Pesan → isi tanggal/jumlah orang, kode promo `ATJEHTRAIL` (potongan Rp10.000), pilih metode pembayaran simulasi → **Bayar & buat e-voucher**.
-4. Konfirmasi menampilkan kode pesanan + **e-voucher QR** (bisa disimpan lewat tombol cetak).
+3. Halaman Pesan → isi tanggal/jumlah orang, kode promo `ATJEHTRAIL` (potongan Rp10.000), pilih metode pembayaran simulasi → **Lanjut ke pembayaran**.
+4. Konfirmasi berstatus **Menunggu Pembayaran** → **Bayar sekarang (simulasi)** → e-voucher + **kode QR** muncul (bisa disimpan lewat tombol cetak).
 5. **Pesanan** → **Konfirmasi selesai** → **Beri ulasan** (bintang, komentar, foto opsional).
 6. Ulasan hanya bisa dikirim satu kali, maksimal 14 hari setelah pesanan selesai.
 

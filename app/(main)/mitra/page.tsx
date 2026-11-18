@@ -62,7 +62,7 @@ export default async function MitraPage({ searchParams }: Props) {
                   const nama = berkas.split("/").pop() ?? berkas;
                   return (
                     <li key={`${berkas}-${index}`}>
-                      {berkas.startsWith("/uploads/") ? (
+                      {berkas.startsWith("/") || berkas.startsWith("https://") ? (
                         <a
                           href={berkas}
                           target="_blank"

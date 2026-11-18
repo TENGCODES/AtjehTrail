@@ -1,18 +1,23 @@
+-- CreateSchema
+CREATE SCHEMA IF NOT EXISTS "public";
+
 -- CreateTable
 CREATE TABLE "Pengguna" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "nama" TEXT NOT NULL,
     "telepon" TEXT NOT NULL,
     "email" TEXT NOT NULL,
     "passwordHash" TEXT NOT NULL,
     "peran" TEXT NOT NULL DEFAULT 'wisatawan',
     "foto" TEXT,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "Pengguna_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "Mitra" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "penggunaId" TEXT NOT NULL,
     "jenis" TEXT NOT NULL,
     "namaUsaha" TEXT NOT NULL,
@@ -20,20 +25,21 @@ CREATE TABLE "Mitra" (
     "statusVerifikasi" TEXT NOT NULL DEFAULT 'Menunggu Verifikasi',
     "dokumen" TEXT,
     "keterangan" TEXT,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    CONSTRAINT "Mitra_penggunaId_fkey" FOREIGN KEY ("penggunaId") REFERENCES "Pengguna" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "Mitra_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "Destinasi" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "slug" TEXT NOT NULL,
     "nama" TEXT NOT NULL,
     "kategori" TEXT NOT NULL,
     "wilayah" TEXT NOT NULL,
     "alamat" TEXT NOT NULL,
-    "koordinatLat" REAL NOT NULL,
-    "koordinatLng" REAL NOT NULL,
+    "koordinatLat" DOUBLE PRECISION NOT NULL,
+    "koordinatLng" DOUBLE PRECISION NOT NULL,
     "deskripsi" TEXT NOT NULL,
     "sejarah" TEXT NOT NULL,
     "jamBuka" TEXT NOT NULL,
@@ -47,16 +53,17 @@ CREATE TABLE "Destinasi" (
     "foto" TEXT NOT NULL,
     "galeri" TEXT NOT NULL,
     "populer" INTEGER NOT NULL DEFAULT 0,
-    "rating" REAL NOT NULL DEFAULT 0,
+    "rating" DOUBLE PRECISION NOT NULL DEFAULT 0,
     "jumlahUlasan" INTEGER NOT NULL DEFAULT 0,
-    "jarakPusat" REAL NOT NULL DEFAULT 0,
+    "jarakPusat" DOUBLE PRECISION NOT NULL DEFAULT 0,
     "mitraId" TEXT,
-    CONSTRAINT "Destinasi_mitraId_fkey" FOREIGN KEY ("mitraId") REFERENCES "Mitra" ("id") ON DELETE SET NULL ON UPDATE CASCADE
+
+    CONSTRAINT "Destinasi_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "Penginapan" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "mitraId" TEXT NOT NULL,
     "nama" TEXT NOT NULL,
     "jenis" TEXT NOT NULL,
@@ -64,20 +71,21 @@ CREATE TABLE "Penginapan" (
     "fasilitas" TEXT NOT NULL,
     "aturan" TEXT NOT NULL,
     "hargaPerMalam" INTEGER NOT NULL,
-    "koordinatLat" REAL NOT NULL,
-    "koordinatLng" REAL NOT NULL,
+    "koordinatLat" DOUBLE PRECISION NOT NULL,
+    "koordinatLng" DOUBLE PRECISION NOT NULL,
     "foto" TEXT NOT NULL,
     "galeri" TEXT NOT NULL,
     "jamMasuk" TEXT NOT NULL,
     "jamKeluar" TEXT NOT NULL,
-    "rating" REAL NOT NULL DEFAULT 0,
+    "rating" DOUBLE PRECISION NOT NULL DEFAULT 0,
     "jumlahUlasan" INTEGER NOT NULL DEFAULT 0,
-    CONSTRAINT "Penginapan_mitraId_fkey" FOREIGN KEY ("mitraId") REFERENCES "Mitra" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+
+    CONSTRAINT "Penginapan_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "Pemandu" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "mitraId" TEXT NOT NULL,
     "nama" TEXT NOT NULL,
     "deskripsi" TEXT NOT NULL,
@@ -87,14 +95,15 @@ CREATE TABLE "Pemandu" (
     "tarif" INTEGER NOT NULL,
     "ketersediaan" TEXT NOT NULL,
     "foto" TEXT NOT NULL,
-    "rating" REAL NOT NULL DEFAULT 0,
+    "rating" DOUBLE PRECISION NOT NULL DEFAULT 0,
     "jumlahUlasan" INTEGER NOT NULL DEFAULT 0,
-    CONSTRAINT "Pemandu_mitraId_fkey" FOREIGN KEY ("mitraId") REFERENCES "Mitra" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+
+    CONSTRAINT "Pemandu_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "Paket" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "mitraId" TEXT NOT NULL,
     "slug" TEXT NOT NULL,
     "judul" TEXT NOT NULL,
@@ -111,9 +120,10 @@ CREATE TABLE "Paket" (
     "antarJemput" BOOLEAN NOT NULL DEFAULT false,
     "pemandu" BOOLEAN NOT NULL DEFAULT true,
     "foto" TEXT NOT NULL,
-    "rating" REAL NOT NULL DEFAULT 0,
+    "rating" DOUBLE PRECISION NOT NULL DEFAULT 0,
     "jumlahUlasan" INTEGER NOT NULL DEFAULT 0,
-    CONSTRAINT "Paket_mitraId_fkey" FOREIGN KEY ("mitraId") REFERENCES "Mitra" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+
+    CONSTRAINT "Paket_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
@@ -122,9 +132,7 @@ CREATE TABLE "PaketDestinasi" (
     "destinasiId" TEXT NOT NULL,
     "urutan" INTEGER NOT NULL DEFAULT 0,
 
-    PRIMARY KEY ("paketId", "destinasiId"),
-    CONSTRAINT "PaketDestinasi_paketId_fkey" FOREIGN KEY ("paketId") REFERENCES "Paket" ("id") ON DELETE CASCADE ON UPDATE CASCADE,
-    CONSTRAINT "PaketDestinasi_destinasiId_fkey" FOREIGN KEY ("destinasiId") REFERENCES "Destinasi" ("id") ON DELETE CASCADE ON UPDATE CASCADE
+    CONSTRAINT "PaketDestinasi_pkey" PRIMARY KEY ("paketId","destinasiId")
 );
 
 -- CreateTable
@@ -132,14 +140,12 @@ CREATE TABLE "PemanduDestinasi" (
     "pemanduId" TEXT NOT NULL,
     "destinasiId" TEXT NOT NULL,
 
-    PRIMARY KEY ("pemanduId", "destinasiId"),
-    CONSTRAINT "PemanduDestinasi_pemanduId_fkey" FOREIGN KEY ("pemanduId") REFERENCES "Pemandu" ("id") ON DELETE CASCADE ON UPDATE CASCADE,
-    CONSTRAINT "PemanduDestinasi_destinasiId_fkey" FOREIGN KEY ("destinasiId") REFERENCES "Destinasi" ("id") ON DELETE CASCADE ON UPDATE CASCADE
+    CONSTRAINT "PemanduDestinasi_pkey" PRIMARY KEY ("pemanduId","destinasiId")
 );
 
 -- CreateTable
 CREATE TABLE "Pesanan" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "kode" TEXT NOT NULL,
     "penggunaId" TEXT NOT NULL,
     "jenisLayanan" TEXT NOT NULL,
@@ -162,14 +168,15 @@ CREATE TABLE "Pesanan" (
     "teleponPemesan" TEXT NOT NULL,
     "catatan" TEXT,
     "komisi" INTEGER NOT NULL DEFAULT 0,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "selesaiAt" DATETIME,
-    CONSTRAINT "Pesanan_penggunaId_fkey" FOREIGN KEY ("penggunaId") REFERENCES "Pengguna" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "selesaiAt" TIMESTAMP(3),
+
+    CONSTRAINT "Pesanan_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "Ulasan" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "pesananId" TEXT NOT NULL,
     "penggunaId" TEXT NOT NULL,
     "targetJenis" TEXT NOT NULL,
@@ -178,14 +185,14 @@ CREATE TABLE "Ulasan" (
     "bintangPelayanan" INTEGER NOT NULL,
     "komentar" TEXT NOT NULL,
     "foto" TEXT,
-    "tanggal" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    CONSTRAINT "Ulasan_pesananId_fkey" FOREIGN KEY ("pesananId") REFERENCES "Pesanan" ("id") ON DELETE RESTRICT ON UPDATE CASCADE,
-    CONSTRAINT "Ulasan_penggunaId_fkey" FOREIGN KEY ("penggunaId") REFERENCES "Pengguna" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+    "tanggal" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "Ulasan_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "UsulanTempat" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "penggunaId" TEXT NOT NULL,
     "nama" TEXT NOT NULL,
     "kategori" TEXT NOT NULL,
@@ -197,13 +204,14 @@ CREATE TABLE "UsulanTempat" (
     "foto" TEXT,
     "pernyataanIzin" BOOLEAN NOT NULL DEFAULT false,
     "status" TEXT NOT NULL DEFAULT 'Menunggu Verifikasi',
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    CONSTRAINT "UsulanTempat_penggunaId_fkey" FOREIGN KEY ("penggunaId") REFERENCES "Pengguna" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "UsulanTempat_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "PromoBanner" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "judul" TEXT NOT NULL,
     "deskripsi" TEXT NOT NULL,
     "tujuan" TEXT NOT NULL,
@@ -211,17 +219,20 @@ CREATE TABLE "PromoBanner" (
     "kode" TEXT,
     "periode" TEXT,
     "pemilik" TEXT,
-    "aktif" BOOLEAN NOT NULL DEFAULT true
+    "aktif" BOOLEAN NOT NULL DEFAULT true,
+
+    CONSTRAINT "PromoBanner_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "Favorit" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "penggunaId" TEXT NOT NULL,
     "jenis" TEXT NOT NULL,
     "targetId" TEXT NOT NULL,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    CONSTRAINT "Favorit_penggunaId_fkey" FOREIGN KEY ("penggunaId") REFERENCES "Pengguna" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "Favorit_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
@@ -247,3 +258,46 @@ CREATE UNIQUE INDEX "Ulasan_pesananId_key" ON "Ulasan"("pesananId");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "Favorit_penggunaId_jenis_targetId_key" ON "Favorit"("penggunaId", "jenis", "targetId");
+
+-- AddForeignKey
+ALTER TABLE "Mitra" ADD CONSTRAINT "Mitra_penggunaId_fkey" FOREIGN KEY ("penggunaId") REFERENCES "Pengguna"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Destinasi" ADD CONSTRAINT "Destinasi_mitraId_fkey" FOREIGN KEY ("mitraId") REFERENCES "Mitra"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Penginapan" ADD CONSTRAINT "Penginapan_mitraId_fkey" FOREIGN KEY ("mitraId") REFERENCES "Mitra"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Pemandu" ADD CONSTRAINT "Pemandu_mitraId_fkey" FOREIGN KEY ("mitraId") REFERENCES "Mitra"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Paket" ADD CONSTRAINT "Paket_mitraId_fkey" FOREIGN KEY ("mitraId") REFERENCES "Mitra"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "PaketDestinasi" ADD CONSTRAINT "PaketDestinasi_paketId_fkey" FOREIGN KEY ("paketId") REFERENCES "Paket"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "PaketDestinasi" ADD CONSTRAINT "PaketDestinasi_destinasiId_fkey" FOREIGN KEY ("destinasiId") REFERENCES "Destinasi"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "PemanduDestinasi" ADD CONSTRAINT "PemanduDestinasi_pemanduId_fkey" FOREIGN KEY ("pemanduId") REFERENCES "Pemandu"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "PemanduDestinasi" ADD CONSTRAINT "PemanduDestinasi_destinasiId_fkey" FOREIGN KEY ("destinasiId") REFERENCES "Destinasi"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Pesanan" ADD CONSTRAINT "Pesanan_penggunaId_fkey" FOREIGN KEY ("penggunaId") REFERENCES "Pengguna"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Ulasan" ADD CONSTRAINT "Ulasan_pesananId_fkey" FOREIGN KEY ("pesananId") REFERENCES "Pesanan"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Ulasan" ADD CONSTRAINT "Ulasan_penggunaId_fkey" FOREIGN KEY ("penggunaId") REFERENCES "Pengguna"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "UsulanTempat" ADD CONSTRAINT "UsulanTempat_penggunaId_fkey" FOREIGN KEY ("penggunaId") REFERENCES "Pengguna"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Favorit" ADD CONSTRAINT "Favorit_penggunaId_fkey" FOREIGN KEY ("penggunaId") REFERENCES "Pengguna"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+

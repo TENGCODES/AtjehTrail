@@ -1,6 +1,7 @@
 import { randomUUID } from "node:crypto";
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { put } from "@vercel/blob";
 
 const MAKS_UKURAN = 4 * 1024 * 1024;
 
@@ -31,6 +32,16 @@ async function simpan(
   }
 
   const nama = `${Date.now()}-${randomUUID().slice(0, 8)}${ekstensi}`;
+
+  if (process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID) {
+    const blob = await put(`${folder}/${nama}`, file, {
+      access: "public",
+      addRandomSuffix: false,
+      contentType: file.type,
+    });
+    return blob.url;
+  }
+
   const map = path.join(process.cwd(), "public", "uploads", folder);
   await mkdir(map, { recursive: true });
   await writeFile(path.join(map, nama), Buffer.from(await file.arrayBuffer()));
