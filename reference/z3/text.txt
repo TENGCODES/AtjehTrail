@@ -1,0 +1,291 @@
+AtjehTrail - Aceh Tourism Booking Platform 
+temple_hindu 
+AtjehTrail 
+Explore Aceh, Discover Its Hidden Treasures 
+Beranda 
+Jelajah 
+Cari 
+Paket Tour 
+Riwayat Pesanan 
+Tentang Kami 
+payments 
+IDR 
+| 
+translate 
+ID 
+favorite 
+3 
+notifications 
+Akun Demo 
+person 
+Cut Nyak Farhan 
+Wisatawan Aceh 
+expand_more 
+Farhan Al-Kautsar 
+farhan.aceh@trail.id 
+badge Profil Saya 
+receipt_long Riwayat Pesanan 
+add_location_alt Usul Destinasi Baru 
+handshake Kemitraan Mitra & Guide 
+logout Keluar Sesi 
+arrow_back 
+Kembali 
+Beranda 
+chevron_right 
+Jelajah & Katalog Wisata 
+chevron_right 
+Banda Aceh & Aceh Besar 
+Musim Liburan & Cuaca Tropis Cerah 
+search 
+Kata Kunci / Objek Wisata 
+cancel 
+location_on 
+Wilayah Eksplorasi Semua Wilayah (21) Banda Aceh (12) Aceh Besar (9) 
+event_available 
+Waktu Kunjungan 
+Hari Ini & Esok 
+explore 
+Cari Trail 
+Filter Aktif: 
+Wilayah: Banda Aceh 
+close 
+Wilayah: Aceh Besar 
+close 
+Wisata Alam 
+close 
+verified Terverifikasi Resmi 
+close 
+Reset Semua Filter 
+Urutkan: Paling Populer Rating Tertinggi Harga Terendah Terdekat dari Pusat Kota 
+grid_view 
+view_list 
+map 
+Katalog Destinasi & Pengalaman 
+Menampilkan 8 dari 21 Wisata Pilihan 
+tune 
+Filter Lengkap (4 Aktif) 
+tune 
+Filter Penelusuran 
+Reset 
+Wilayah Administrasi 
+Kota Banda Aceh 
+12 
+Kabupaten Aceh Besar 
+9 
+Kategori Pengalaman 
+Wisata Alam & Pantai 
+7 
+Sejarah & Heritage Aceh 
+6 
+Wisata Religi & Ibadah 
+3 
+Edukasi Bencana & Mitigasi 
+2 
+Desa Wisata & Kuliner Lokal 
+3 
+Biaya Retribusi / Tiket 
+Semua Rentang 
+Semua Biaya Masuk 
+Gratis (Tanpa Tiket) 
+≤ Rp20.000 / orang 
+Paket Wisata & Guide (> Rp250.000) 
+Fasilitas & Layanan 
+Tempat Wudhu & Musholla Bersih 
+Area Parkir Roda Empat Luas 
+Ramah Anak & Lansia (Akses Mudah) 
+Warung Kuliner Khas Aceh 
+Spot Fotografi Ikonik 
+Aksesibilitas / Medan 
+Santai / Datar 
+Sedang 
+Trekking / Naik 
+Kurasi Khusus AtjehTrail 
+Verifikasi Disbudpar Aceh 
+Standar kelayakan, keamanan, dan kepatuhan syariah resmi. 
+Permata Tersembunyi (Hidden Gem) 
+Spot hening dan belum padat wisatawan massal. 
+support_agent 
+Layanan Concierge 
+Butuh pemandu lokal bersertifikat HPI Aceh untuk rombongan keluarga atau ziarah budaya? 
+Konsultasi Rute Gratis 
+pin_drop 
+Peta Sebaran Destinasi Aceh 
+Klik pin untuk menyorot detail tiket 
+Pusat Interaktif 
+Titik Nol Kilometer & Kawasan Meuraxa 
+Akses jalur tol Sibanceh & pesisir pantai barat-selatan terpantau lancar. 
+Sejarah & Heritage 
+verified Terverifikasi Disbudpar 
+favorite_border 
+schedule 08.30 - 16.30 WIB 
+Banda Aceh • Baiturrahman 
+star 
+4.8 
+(340) 
+Rumoh Aceh & Museum Negeri 
+Kompleks rumah tradisional panggung khas Aceh tempo doeloe, Lonceng Cakra Donya dari Dinasti Ming, serta artefak Kesultanan Iskandar Muda. 
+Tiket Masuk / Orang 
+Rp10.000 
+Detail 
+Pesan 
+Permata Tersembunyi 
+Wisata Alam 
+favorite_border 
+waves Spot Snorkeling & Sunset 
+Aceh Besar • Mesjid Raya 
+star 
+4.7 
+(512) 
+Pantai Lhok Mee Pasir Putih 
+Dikenal dengan sebutan pantai pohon geurutee/bakau terapung di dalam air laut jernih. Dilengkapi pondok santai tepi tebing dan kelapa muda. 
+Retribusi Gampong 
+Rp5.000 
+Detail 
+Pesan 
+Sejarah Nasional 
+verified Terverifikasi Disbudpar 
+favorite_border 
+menu_book Arsip Sejarah Perang 
+Banda Aceh • Baiturrahman 
+star 
+4.6 
+(180) 
+Kerkhof Peucut (Makam Bersejarah) 
+Saksi bisu heroisme perjuangan rakyat Aceh. Kompleks pemakaman militer Belanda terbesar kedua di dunia di luar Belanda dengan prasasti gerbang megah. 
+Biaya Masuk 
+Gratis (Infaq Sukarela) 
+Detail 
+Pesan 
+Wisata Alam & Ekowisata 
+favorite_border 
+spa Alami & Sejuk 
+Aceh Besar • Lhoong 
+star 
+4.7 
+(220) 
+Air Terjun Seuhom 
+Air terjun bertingkat setinggi 20 meter di tengah rimbunnya perkebunan durian Lhoong. Air pegunungan segar nan jernih dengan kolam pemandian alami. 
+Biaya Tiket & Parkir 
+Rp10.000 
+Detail 
+Pesan 
+Ikon Utama Religi 
+verified Terverifikasi Disbudpar 
+favorite_border 
+mosque Buka 24 Jam Jamaah 
+Banda Aceh • Pusat Kota 
+star 
+4.9 
+(1.890) 
+Masjid Raya Baiturrahman 
+Kemegahan 7 kubah hitam, 12 payung elektrik ala Madinah, lantai marmer Italia, dan saksi keajaiban saat tsunami 2004. 
+Biaya Masuk 
+Gratis 
+Detail 
+Pesan 
+Situs Kuno Abad ke-7 
+favorite_border 
+castle Benteng Karang Laut 
+Aceh Besar • Ladong 
+star 
+4.6 
+(140) 
+Benteng Indra Patra 
+Benteng pertahanan masa Kerajaan Lamuri abad ke-7 yang dibangun menggunakan perekat kapur dan putih telur, menghadap Selat Malaka. 
+Biaya Retribusi 
+Rp5.000 
+Detail 
+Pesan 
+Paket Tour • 2 Hari 1 Malam 
+verified_user Pemandu HPI Tersertifikasi 
+Aceh Besar • Lhoknga, Lampuuk & Seulawah 
+star 
+4.9 
+(94 ulasan) 
+Paket Eksklusif "Healing Alam & Bahari Aceh Besar" 
+Jelajahi keindahan tersembunyi Pantai Tebing Lampuuk, Gua Sarang Burung Walet, dan mandi air terjun pegunungan. Termasuk transportasi full AC, 4x makan khas Kuah Beulangong, dan dokumentasi drone. 
+directions_car Transport HiAce 
+restaurant Halal Meals 
+photo_camera Drone Footage 
+Mulai Dari (Min. 4 Orang) 
+Rp350.000 
+/ orang 
+Lihat Itinerary 
+Reservasi Sekarang 
+Desa Wisata Komunitas 
+eco Eco Tourism Juara ADWI 
+favorite_border 
+psychology Edukasi Kerajinan Daur Ulang 
+Aceh Besar • Lhoknga 
+star 
+4.8 
+(88) 
+Gampong Wisata Nusa 
+Desa peraih penghargaan nasional berbasis pengelolaan sampah kreatif, kuliner tradisional khas Meuseukat dan Keukarah, serta homestay ramah keluarga. 
+Donasi Masuk Gampong 
+Rp15.000 
+Detail 
+Pesan 
+travel_explore 
+Tidak Ada Destinasi Sesuai Filter 
+Coba longgarkan kriteria pencarian Anda, pilih rentang harga lain, atau hapus kata kunci yang terlalu spesifik. 
+Kembalikan Semua Pilihan Wisata 
+Halaman 
+1 dari 
+3 (Total 21 Wisata) 
+chevron_left Sebelumnya 
+1 
+2 
+3 
+Berikutnya 
+chevron_right 
+verified_user 
+Adat & Tata Krama Wisatawan Meurah Silu 
+Saat berkunjung ke situs sejarah dan kawasan pesisir Aceh, kenakan pakaian sopan menutup aurat dan beri jeda berwisata saat panggilan azan berkumandang. 
+Baca Panduan Syariah 
+explore 
+Ringkasan Cepat Destinasi 
+close 
+verified Terverifikasi AtjehTrail Quality Check 
+Aceh Heritage Zone 
+star 
+4.8 
+(Ulasan Wisatawan) 
+Nama Destinasi Aceh 
+Deskripsi lengkap akan disajikan di sini menjelaskan keunikan arsitektur, nilai spiritual, kisah masa lalu, serta fasilitas ramah keluarga yang tersedia. 
+Musholla 
+Tersedia Bersih 
+Parkir Mobil 
+Rp5.000 / unit 
+Akses Kursi Roda 
+Sebagian Area 
+Guide Syariah 
+Dapat Dipesan 
+Biaya Tiket / Retribusi Resmi 
+Rp10.000 / orang 
+Pesan Tiket / Tour Ini 
+Tutup 
+temple_hindu 
+AtjehTrail 
+Platform ekosistem kurasi pariwisata berkelanjutan untuk Banda Aceh & Aceh Besar. Menyajikan perjumpaan budaya, keheningan spiritual, bahari tersembunyi, dan pemberdayaan pemandu lokal berbasis kearifan syariah yang otentik. 
+verified Syariah Verified Concierge 
+eco Eco Heritage Tour 
+Jelajah & Pilihan 
+Destinasi Populer Banda Aceh 
+Pantai & Karang Aceh Besar 
+Penginapan & Homestay Syariah 
+Pemandu Lokal Bersertifikat 
+Wisata Sejarah Tsunami & Heritage 
+Partisipasi & Mitra 
+Formulir Usulan Destinasi Baru 
+Pendaftaran Mitra Tour Guide 
+Kerjasama Komunitas Gampong 
+Tentang Tim & Visi Kami 
+Hubungi Layanan Concierge 
+Etika & Panduan 
+verified_user Etika Wisatawan Syariat 
+Hormati jadwal shalat fardhu, gunakan busana sopan menutup aurat di tempat umum, dan junjung adat meunasah/gampong setempat demi keberkahan perjalanan Anda. 
+© 2025 AtjehTrail Ekosistem Pariwisata Aceh. Hak Cipta Dilindungi Undang-Undang. 
+Kebijakan Privasi 
+Syarat & Ketentuan 
+Pedoman Halal Tourism 

@@ -1,0 +1,336 @@
+AtjehTrail - Aceh Tourism Booking Platform 
+temple_hindu 
+AtjehTrail 
+Explore Aceh, Discover Its Hidden Treasures 
+Beranda 
+Jelajah 
+Cari 
+Paket Tour 
+Riwayat Pesanan 
+Tentang Kami 
+payments 
+IDR 
+expand_more 
+IDR 
+Rp 
+USD 
+$ 
+MYR 
+RM 
+| 
+translate 
+ID 
+expand_more 
+Indonesia (ID) 
+English (EN) 
+Basa Acèh (ACH) 
+favorite 
+3 
+notifications 
+Akun Demo 
+person 
+Cut Nyak Farhan 
+Wisatawan Aceh 
+expand_more 
+Cut Nyak Farhan 
+farhan.aceh@trail.id 
+Wisatawan Terverifikasi 
+badge Profil Saya 
+favorite Favorit (3 Destinasi) 
+receipt_long Riwayat Pesanan & Tiket 
+settings Pengaturan 
+logout Keluar 
+menu 
+verified_user 
+Syariah Verified Tourism & Concierge 
+Temukan Keindahan Aceh, 
+Mulai Petualanganmu. 
+Platform wisata terpadu Banda Aceh & Aceh Besar. Jelajahi situs sejarah syahdu, surga bahari tersembunyi, hingga kehangatan budaya gampong yang ramah tamah. 
+explore 
+Destinasi Wisata 
+cottage 
+Penginapan & Homestay 
+badge 
+Pemandu Lokal (HPI) 
+auto_awesome 
+Paket Tour Lengkap 
+location_on Mau ke mana hari ini? 
+calendar_month Tanggal Kunjungan 
+group Peserta 1 Orang 2 Orang (Duo) Keluarga (4-5) Rombongan (10+) 
+category Kategori Wisata Semua Kategori Situs Sejarah & Heritage Healing Bahari & Alam Wisata Religi & Ziarah Kuliner Tradisional 
+search 
+Cari Wisata 
+Paling Dicari: 
+trending_up Masjid Raya Baiturrahman 
+Pantai Lhok Mee 
+Museum Tsunami Aceh 
+Air Terjun Seuhom 
+Benteng Indra Patra 
+explore 
+12+ Lokasi 
+Destinasi Wisata 
+Situs sejarah tsunami, arsitektur kesultanan kuno, dan pesona pantai alami. 
+Jelajahi Peta 
+arrow_forward 
+cottage 
+Etika Syariah 
+Homestay & Villa 
+Rumah panggung tradisional bernuansa asri gampong dengan kenyamanan modern. 
+Pilih Kamar 
+arrow_forward 
+verified 
+Lisensi HPI 
+Pemandu Lokal 
+Putra-putri daerah tersertifikasi dengan wawasan tutur hikayat dan sejarah mendalam. 
+Lihat Profil Guide 
+arrow_forward 
+luggage 
+All-Inclusive 
+Paket Tour Lengkap 
+Itinerary terstruktur satu hari hingga overland jelajah alam Aceh Besar tanpa repot. 
+Daftar Paket 
+arrow_forward 
+celebration Promo Terbatas Khusus Wisatawan 
+Diskon s/d 25% Paket Healing Alam Aceh Besar 
+Nikmati kesejukan air terjun tersembunyi, hamparan pohon bakau Lhok Mee, dan santapan kuliner Sie Itek otentik bersama pemandu lokal gampong. 
+Gunakan Kode: 
+ATJEHHEALING 
+Klaim Kupon Sekarang 
+mosque 
+100% Halal 
+Syariah Assured 
+volunteer_activism 
+Gampong 
+Dukungan Warga 
+stars Destinasi Favorit Wisatawan 
+Warisan Sejarah & Pesona Bahari 
+Lihat Semua 34 Destinasi 
+east 
+verified Terverifikasi 
+star 4.9 
+pin_drop Banda Aceh Pusat • Religi & Ikonik 
+Masjid Raya Baiturrahman 
+Ikon keteguhan iman dan sejarah Aceh yang megah sejak era Kesultanan Iskandar Muda, dilengkapi payung hidrolik dan kolam marmer. 
+Biaya Masuk 
+Gratis (Infaq Sukarela) 
+Detail Lokasi 
+museum Sejarah Klasik 
+star 4.8 
+pin_drop Banda Aceh • Budaya & Artefak 
+Rumoh Aceh & Museum Aceh 
+Rumah panggung kayu otentik tanpa paku dan lonceng Cakra Donya hadiah Kaisar Tiongkok dari era Laksamana Cheng Ho. 
+Tiket Masuk 
+Rp10.000 
+/org 
+Detail Lokasi 
+menu_book Edukasi Bencana 
+star 4.8 
+pin_drop Banda Aceh Pusat • Edukasi Tsunami 
+Museum Tsunami & PLTD Apung 
+Karya arsitektur monumental lorong perenungan tsunami 2004 serta saksi bisu kapal pembangkit listrik 2.600 ton terdampar ke daratan. 
+Tiket Masuk 
+Rp15.000 
+/org 
+Detail Lokasi 
+water Permata Bahari 
+star 4.7 
+pin_drop Mesjid Raya, Aceh Besar • Wisata Alam 
+Pantai Lhok Mee Pasir Putih 
+Keunikan pohon Geurutee yang tumbuh di dalam air laut jernih berkilau, pasir putih lembut, dan spot snorkeling tenang. 
+Biaya Retribusi 
+Rp5.000 
+/org 
+Detail Lokasi 
+forest Healing Hutan 
+star 4.7 
+pin_drop Lhoong, Aceh Besar • Petualangan Alam 
+Air Terjun Kuta Malaka & Seuhom 
+Gemuruh air terjun alami bertingkat di lembah bukit barisan, dikelilingi kebun durian warga gampong yang sejuk menenangkan jiwa. 
+Biaya Retribusi 
+Rp10.000 
+/org 
+Detail Lokasi 
+fort Cagar Budaya Abad ke-7 
+star 4.6 
+pin_drop Ladong, Aceh Besar • Arkeologi Kuno 
+Benteng Kuno Indra Patra 
+Saksi peradaban pra-Islam Kerajaan Lamuri abad ke-7 yang dibangun dari batu gunung dan putih telur menghadap Selat Malaka. 
+Biaya Retribusi 
+Rp5.000 
+/org 
+Detail Lokasi 
+Kurasi Concierge AtjehTrail 
+Paket Tour Pilihan & Rekomendasi 
+Pengalaman wisata berlisensi resmi, ramah keluarga, serta menjamin privasi dan etika syariah yang menenangkan. 
+Full Day Tour 
+schedule 8-9 Jam 
+• 
+group Min. 4 Orang 
+Jejak Sejarah & Tamadun Banda Aceh 
+Kunjungan komprehensif ke Masjid Raya Baiturrahman, Kerkhof Peucut, Gunongan Putroe Phang, dan kuliner Kopi Solong klasik Ulee Kareng. 
+check_circle Termasuk Tiket Masuk & Pemandu HPI 
+check_circle Transportasi AC & Air Mineral 
+Mulai Dari 
+Rp275.000 
+/pax 
+Pesan Paket 
+2 Hari 1 Malam 
+schedule 2 Hari (Inap) 
+• 
+group Min. 2 Orang 
+Healing Bahari & Alam Aceh Besar 
+Eksplorasi Pantai Pasir Putih Lhok Mee, sunset di tebing Lhok Seudu, trekking santai ke Air Terjun Seuhom, serta menginap di homestay syariah. 
+check_circle Menginap 1 Malam Homestay Pesisir 
+check_circle Sarapan Pagi & BBQ Ikan Laut Segar 
+Mulai Dari 
+Rp350.000 
+/pax 
+Pesan Paket 
+Budaya & Kuliner 
+schedule 1 Hari Penuh 
+• 
+group Min. 3 Orang 
+Desa Wisata Nusa & Benteng Kuno 
+Interaksi langsung dengan perajin daur ulang sampah Gampong Nusa peraih ADWI, memasak Kuah Beulangong, dan napak tilas Benteng Indra Patra. 
+check_circle Workshop Anyaman Khas Gampong 
+check_circle Makan Siang Tradisional Kenduri 
+Mulai Dari 
+Rp300.000 
+/pax 
+Pesan Paket 
+badge Pemandu Resmi Bersertifikat HPI 
+Teman Cerita & Hikayat Anda di Aceh 
+Didampingi pemandu berlisensi resmi yang memahami seluk-beluk kearifan syariah lokal dan jalur tersembunyi. 
+verified 
+Teuku Mirza, S.Hum 
+Pemandu Budaya & Sejarah 
+star 
+4.9 (84 Ulasan) 
+12 tahun menceritakan masa keemasan Kesultanan Aceh Darussalam, arsitektur masjid, dan diplomasi internasional abad ke-16. 
+Bahasa Indonesia 
+English (Fluent) 
+Basa Acèh 
+Tarif Pemandu 
+Rp350.000 
+/hari 
+Hubungi Guide 
+verified 
+Cut Rahmawati, S.Pd 
+Spesialis Tsunami & Edukasi 
+star 
+4.9 (62 Ulasan) 
+Menyajikan narasi kebencanaan dengan sentuhan empati dan pembelajaran mitigasi bagi wisatawan keluarga dan grup studi. 
+Bahasa Indonesia 
+English 
+Ramah Anak 
+Tarif Pemandu 
+Rp300.000 
+/hari 
+Hubungi Guide 
+verified 
+Faisal Bahri 
+Trekking & Wisata Bahari 
+star 
+4.8 (57 Ulasan) 
+Pemandu jalur alam Aceh Besar, pemandangan bukit Lhoknga, spot rahasia air terjun, dan pendampingan snorkeling pantai terpencil. 
+Bahasa Indonesia 
+Lisensi Rescue 
+Jalur Off-Track 
+Tarif Pemandu 
+Rp400.000 
+/hari 
+Hubungi Guide 
+Kenyamanan Perjalanan Anda 
+Mengapa Menjelajah Bersama AtjehTrail? 
+Standar baru ekosistem pariwisata Aceh yang mengedepankan keramahan syariah, kelestarian alam, serta kemakmuran warga lokal. 
+mosque 
+100% Syariah Verified 
+Kurasi homestay dan restoran yang menjamin ketersediaan fasilitas shalat, kehalalan santapan, dan suasana privat yang terhormat. 
+workspace_premium 
+Pemandu Lisensi HPI 
+Didampingi oleh duta wisata lokal resmi yang terlatih dalam keselamatan wisata, etika budaya, serta sejarah Aceh mendalam. 
+diversity_3 
+Dukung Ekonomi Gampong 
+Setiap transaksi Anda berdampak langsung bagi mata pencaharian warga desa, UMKM kuliner tradisional, dan pelestarian adat. 
+format_image_left 
+Pemesanan Aman & Jelas 
+Harga transparan tanpa biaya tersembunyi dengan dukungan tim concierge siap membantu kebutuhan perjalanan Anda di Aceh. 
+Kolaborasi Ekosistem 
+Punya Homestay atau Ahli Menjadi Pemandu? 
+Daftarkan penginapan Anda atau bergabung sebagai mitra pemandu wisata resmi di AtjehTrail. Tingkatkan jangkauan tamu dan dukung promosi kearifan Aceh ke panggung nasional maupun global. 
+Daftar Mitra Guide 
+Daftarkan Homestay 
+temple_hindu 
+AtjehTrail 
+Platform ekosistem kurasi pariwisata berkelanjutan untuk Banda Aceh & Aceh Besar. Menyajikan perjumpaan budaya, keheningan spiritual, bahari tersembunyi, dan pemberdayaan pemandu lokal berbasis kearifan syariah yang otentik. 
+verified Syariah Verified Concierge 
+eco Eco Heritage Tour 
+Jelajah & Pilihan 
+Destinasi Populer Banda Aceh 
+Pantai & Karang Aceh Besar 
+Penginapan & Homestay Syariah 
+Pemandu Lokal Bersertifikat 
+Wisata Sejarah Tsunami & Heritage 
+Partisipasi & Mitra 
+Formulir Usulan Destinasi Baru 
+Pendaftaran Mitra Tour Guide 
+Kerjasama Komunitas Gampong 
+Tentang Tim & Visi Kami 
+Hubungi Layanan Concierge 
+Etika & Panduan 
+verified_user Etika Wisatawan Syariat 
+Hormati jadwal shalat fardhu, gunakan busana sopan menutup aurat di tempat umum, dan junjung adat meunasah/gampong setempat demi keberkahan perjalanan Anda. 
+© 2025 AtjehTrail Ekosistem Pariwisata Aceh. Hak Cipta Dilindungi Undang-Undang. 
+Kebijakan Privasi 
+Syarat & Ketentuan 
+Pedoman Halal Tourism 
+Riwayat Pesanan & E-Voucher 
+Daftar paket wisata dan homestay terkonfirmasi 
+close 
+E-VOUCHER AKTIF 
+#ATJ-2025-081 Paket Healing Bahari & Alam Aceh Besar 
+calendar_today 15 Juni 2025 
+• 
+2 Peserta 
+Total: Rp700.000 
+Unduh E-Voucher 
+SELESAI 
+#ATJ-2025-014 Jejak Sejarah & Tamadun Banda Aceh 
+02 Maret 2025 • 4 Peserta 
+Tutup 
+favorite 
+3 Destinasi Disimpan 
+close 
+temple_hindu 
+Masjid Raya Baiturrahman 
+Banda Aceh Pusat 
+Hapus 
+water 
+Pantai Lhok Mee Pasir Putih 
+Mesjid Raya, Aceh Besar 
+Hapus 
+fort 
+Benteng Kuno Indra Patra 
+Ladong, Aceh Besar 
+Hapus 
+Lihat di Katalog 
+Tutup 
+Pemberitahuan 
+Tutup 
+Jadwal Shalat Maghrib 
+Waktu Maghrib untuk Banda Aceh & sekitarnya pukul 18:48 WIB. 
+Promo Spesial Healing Alam 
+Gunakan kode ATJEHHEALING diskon 25% paket akhir pekan. 
+temple_hindu 
+AtjehTrail 
+close 
+Beranda 
+Jelajah Destinasi 
+Cari Wisata 
+Paket Tour Lengkap 
+Riwayat Pesanan 
+Tentang Kami 
+person 
+Cut Nyak Farhan 
+farhan.aceh@trail.id 
+Keluar Sesi 

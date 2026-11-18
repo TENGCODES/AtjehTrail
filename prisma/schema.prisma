@@ -1,0 +1,237 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Pengguna {
+  id           String         @id @default(cuid())
+  nama         String
+  telepon      String
+  email        String         @unique
+  passwordHash String
+  peran        String         @default("wisatawan")
+  foto         String?
+  createdAt    DateTime       @default(now())
+  mitra        Mitra?
+  pesanan      Pesanan[]
+  ulasan       Ulasan[]
+  usulan       UsulanTempat[]
+  favorit      Favorit[]
+}
+
+model Mitra {
+  id               String      @id @default(cuid())
+  penggunaId       String      @unique
+  jenis            String
+  namaUsaha        String
+  kontak           String
+  statusVerifikasi String      @default("Menunggu Verifikasi")
+  dokumen          String?
+  keterangan       String?
+  createdAt        DateTime    @default(now())
+  pengguna         Pengguna    @relation(fields: [penggunaId], references: [id])
+  destinasi        Destinasi[]
+  penginapan       Penginapan[]
+  pemandu          Pemandu[]
+  paket            Paket[]
+}
+
+model Destinasi {
+  id                 String             @id @default(cuid())
+  slug               String             @unique
+  nama               String
+  kategori           String
+  wilayah            String
+  alamat             String
+  koordinatLat       Float
+  koordinatLng       Float
+  deskripsi          String
+  sejarah            String
+  jamBuka            String
+  hargaTiket         Int                @default(0)
+  tingkatKesulitan   String             @default("Mudah")
+  fasilitas          String
+  etika              String
+  akses              String
+  statusVerifikasi   String             @default("Terverifikasi")
+  permataTersembunyi Boolean            @default(false)
+  foto               String
+  galeri             String
+  populer            Int                @default(0)
+  rating             Float              @default(0)
+  jumlahUlasan       Int                @default(0)
+  jarakPusat         Float              @default(0)
+  mitraId            String?
+  mitra              Mitra?             @relation(fields: [mitraId], references: [id])
+  paket              PaketDestinasi[]
+  pemandu            PemanduDestinasi[]
+}
+
+model Penginapan {
+  id             String   @id @default(cuid())
+  mitraId        String
+  nama           String
+  jenis          String
+  deskripsi      String
+  fasilitas      String
+  aturan         String
+  hargaPerMalam  Int
+  koordinatLat   Float
+  koordinatLng   Float
+  foto           String
+  galeri         String
+  jamMasuk       String
+  jamKeluar      String
+  rating         Float    @default(0)
+  jumlahUlasan   Int      @default(0)
+  mitra          Mitra    @relation(fields: [mitraId], references: [id])
+}
+
+model Pemandu {
+  id           String             @id @default(cuid())
+  mitraId      String
+  nama         String
+  deskripsi    String
+  bahasa       String
+  keahlian     String
+  area         String
+  tarif        Int
+  ketersediaan String
+  foto         String
+  rating       Float              @default(0)
+  jumlahUlasan Int                @default(0)
+  mitra        Mitra              @relation(fields: [mitraId], references: [id])
+  destinasi    PemanduDestinasi[]
+}
+
+model Paket {
+  id                    String           @id @default(cuid())
+  mitraId               String
+  slug                  String           @unique
+  judul                 String
+  deskripsi             String
+  durasi                String
+  itinerary             String
+  inklusi               String
+  eksklusi              String
+  hargaPerOrang         Int
+  minimalOrang          Int              @default(4)
+  kuota                 Int
+  tanggalKeberangkatan  String
+  titikKumpul           String
+  antarJemput           Boolean          @default(false)
+  pemandu               Boolean          @default(true)
+  foto                  String
+  rating                Float            @default(0)
+  jumlahUlasan          Int              @default(0)
+  mitra                 Mitra            @relation(fields: [mitraId], references: [id])
+  destinasi             PaketDestinasi[]
+}
+
+model PaketDestinasi {
+  paketId     String
+  destinasiId String
+  urutan      Int      @default(0)
+  paket       Paket    @relation(fields: [paketId], references: [id], onDelete: Cascade)
+  destinasi   Destinasi @relation(fields: [destinasiId], references: [id], onDelete: Cascade)
+
+  @@id([paketId, destinasiId])
+}
+
+model PemanduDestinasi {
+  pemanduId   String
+  destinasiId String
+  pemandu     Pemandu   @relation(fields: [pemanduId], references: [id], onDelete: Cascade)
+  destinasi   Destinasi @relation(fields: [destinasiId], references: [id], onDelete: Cascade)
+
+  @@id([pemanduId, destinasiId])
+}
+
+model Pesanan {
+  id               String    @id @default(cuid())
+  kode             String    @unique
+  penggunaId       String
+  jenisLayanan     String
+  layananId        String
+  layananNama      String
+  tanggal          String
+  tanggalSelesai   String?
+  jumlahOrang      Int       @default(1)
+  jumlahMalam      Int       @default(0)
+  subtotal         Int
+  biayaLayanan     Int       @default(5000)
+  diskon           Int       @default(0)
+  total            Int
+  status           String    @default("Menunggu Pembayaran")
+  kodeVoucher      String    @unique
+  metodePembayaran String?
+  tambahanPemandu  Boolean   @default(false)
+  antarJemput      Boolean   @default(false)
+  namaPemesan      String
+  teleponPemesan   String
+  catatan          String?
+  komisi           Int       @default(0)
+  createdAt        DateTime  @default(now())
+  selesaiAt        DateTime?
+  pengguna         Pengguna  @relation(fields: [penggunaId], references: [id])
+  ulasan           Ulasan?
+}
+
+model Ulasan {
+  id               String   @id @default(cuid())
+  pesananId        String   @unique
+  penggunaId       String
+  targetJenis      String
+  targetId         String
+  bintang          Int
+  bintangPelayanan Int
+  komentar         String
+  foto             String?
+  tanggal          DateTime @default(now())
+  pesanan          Pesanan  @relation(fields: [pesananId], references: [id])
+  pengguna         Pengguna @relation(fields: [penggunaId], references: [id])
+}
+
+model UsulanTempat {
+  id              String   @id @default(cuid())
+  penggunaId      String
+  nama            String
+  kategori        String
+  lokasi          String
+  deskripsi       String
+  akses           String
+  biaya           String
+  kontakPengelola String
+  foto            String?
+  pernyataanIzin  Boolean  @default(false)
+  status          String   @default("Menunggu Verifikasi")
+  createdAt       DateTime @default(now())
+  pengguna        Pengguna @relation(fields: [penggunaId], references: [id])
+}
+
+model PromoBanner {
+  id          String  @id @default(cuid())
+  judul       String
+  deskripsi   String
+  tujuan      String
+  tipe        String  @default("banner")
+  kode        String?
+  periode     String?
+  pemilik     String?
+  aktif       Boolean @default(true)
+}
+
+model Favorit {
+  id         String   @id @default(cuid())
+  penggunaId String
+  jenis      String
+  targetId   String
+  createdAt  DateTime @default(now())
+  pengguna   Pengguna @relation(fields: [penggunaId], references: [id])
+
+  @@unique([penggunaId, jenis, targetId])
+}

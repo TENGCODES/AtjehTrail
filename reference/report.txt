@@ -1,0 +1,1257 @@
+                   LAPORAN STARTUP
+              DIGITAL ENTREPRENEURSHIP
+
+
+
+                     ATJEHTRAIL
+     Platform Wisata Terpadu Banda Aceh dan Aceh Besar
+
+
+
+Disusun untuk memenuhi tugas mata kuliah Digital Entrepreneurship
+
+               Dosen Pengampu: Mursyidin, M.T.
+
+
+                         Disusun oleh:
+
+                  Aisy Al-Khansa (240705001)
+                    Dayan Fhuri (240705121)
+                   M. Aljir Riski (240705164)
+                    Melda Ulfia (230705019)
+                T. Sultansyah Rumi (240705168)
+
+
+
+
+       PROGRAM STUDI TEKNOLOGI INFORMASI
+          FAKULTAS SAINS DAN TEKNOLOGI
+       UNIVERSITAS ISLAM NEGERI AR-RANIRY
+                  BANDA ACEH
+                       2026
+                                                     DAFTAR ISI
+
+BAB I PENDAHULUAN.................................................................................... 00
+      1.1 Latar Belakang dan Identifikasi Masalah Esensial di Aceh.......................00
+      1.2 Solusi Berbasis Inovasi Teknologi dan Kearifan Lokal.............................00
+      1.3 Visi, Misi, dan Tujuan Usaha Startup........................................................00
+BAB II GAMBARAN PRODUK DAN PROTOTIPE (MVP)........................00
+      2.1 Deskripsi Produk/Jasa dan Fitur Utama.....................................................00
+      2.2 Keunggulan Inovasi Teknologi dan Nilai Tambah (Value Proposition). . .00
+      2.3 Visualisasi Prototipe/Desain......................................................................00
+BAB III MODEL BISNIS DAN ANALISIS PASAR.......................................00
+      3.1 Business Model Canvas (BMC) 9 Building Blocks...................................00
+      3.2 Segmentasi, Target Pasar, dan Positioning (STP)......................................00
+      3.3 Analisis Pesaing dan Matriks Profil Persaingan........................................00
+BAB IV RENCANA PEMASARAN DAN OPERASIONAL..........................00
+      4.1 Bauran Pemasaran (4P)..............................................................................00
+      4.2 Alur Proses Operasional dan Rantai Pasok (Supply Chain)......................00
+      4.3 Integrasi Lembaga/Aturan Adat Lokal Aceh.............................................00
+BAB V MANAJEMEN SDM DAN STRUKTUR TIM...................................00
+      5.1 Struktur Organisasi Tim Startup (Organigram).........................................00
+      5.2 Analisis Jabatan: Job Description dan Job Specification Posisi Kunci......00
+      5.3 Penerapan Prinsip Pengelolaan SDM dan Job Design...............................00
+BAB VI ANALISIS KELAYAKAN FINANSIAL...........................................00
+      6.1 Kebutuhan Modal Awal (Start-up Fund) dan Modal Kerja.......................00
+      6.2 Struktur Biaya (Biaya Tetap dan Biaya Variabel).....................................00
+      6.3 Proyeksi Arus Kas (Cash Flow) dan Laba Rugi........................................00
+BAB VII KESIMPULAN DAN JADWAL PELAKSANAAN (MILESTONE)
+................................................................................................................................00
+      7.1 Kesimpulan................................................................................................00
+      7.2 Jadwal Pelaksanaan (Milestone)................................................................00
+DAFTAR PUSTAKA........................................................................................... 00
+LAMPIRAN..........................................................................................................00
+      Lampiran A. Spesifikasi Layar Prototipe.........................................................00
+      Lampiran B. Entitas Data................................................................................. 00
+      Lampiran C. Tautan Prototipe..........................................................................00
+
+
+
+
+                                                                2
+                                   BAB I
+                               PENDAHULUAN
+
+1.1 Latar Belakang dan Identifikasi Masalah Esensial di Aceh
+
+        Aceh memiliki beragam daya tarik wisata yang berpotensi dikembangkan,
+mulai dari wisata alam, sejarah, budaya, hingga edukasi kebencanaan. Di Banda
+Aceh terdapat Rumoh Aceh di lingkungan Museum Aceh yang menyimpan koleksi
+sejarah dan budaya masyarakat Aceh (Trip.com, t.t.), serta Kerkhof Peucut yang
+merupakan kompleks pemakaman tentara Belanda terbesar di luar Belanda dengan
+lebih dari 2.000 makam (Trip.com, t.t.). Di Aceh Besar terdapat Benteng Indra Patra
+yang merupakan peninggalan kerajaan Hindu-Buddha sebelum Islam masuk ke
+Aceh (Telkomsel, t.t.), sejumlah air terjun seperti Seuhom dan Kuta Malaka
+(Djawanews, t.t.), serta Gampong Wisata Nusa yang termasuk 50 besar Anugerah
+Desa Wisata Indonesia 2021 (Antara, 2026).
+        Minat berwisata ke Aceh terlihat dari angka kunjungan. Pada Januari sampai
+April 2025, Aceh dikunjungi 7.315.394 wisatawan, naik 76,42% dibandingkan
+periode yang sama tahun sebelumnya, dan hampir seluruhnya adalah wisatawan
+nusantara (InfoPublik, 2025). Sebaliknya, kunjungan wisatawan mancanegara
+cenderung menurun. Pada Januari sampai Agustus 2026 tercatat 24.716 kunjungan,
+turun 12,35% dari periode yang sama tahun 2025 (Detik, 2026), dan pada
+September 2026 tercatat 3.446 kunjungan, turun 36,22% dibandingkan September
+2025 (InfoPublik, 2026a). Data ini menunjukkan bahwa pasar domestik, yaitu
+warga Aceh dan wisatawan nusantara, merupakan pasar yang paling dapat
+diandalkan.
+        Pemerintah juga memberi perhatian pada pengembangan wisata.
+Pemerintah Kota Banda Aceh mendorong arah pariwisata berkualitas dan
+menyiapkan revitalisasi kawasan kota tua (InfoPublik, 2026b), sementara Wakil
+Menteri Pariwisata menilai Aceh memiliki potensi kuat untuk wisata sejarah dan
+edukasi kebencanaan setelah meninjau Desa Wisata Nusa, Museum Kapal PLTD
+Apung, dan Museum Tsunami Aceh (Antara, 2026).
+        Meskipun potensinya besar, pengelolaan dan promosi wisata belum merata.
+Modul sektor pariwisata mencatat bahwa promosi destinasi wisata lokal masih
+sporadis, pengelolaan homestay dan pemandu wisata desa belum terintegrasi, dan
+narasi sejarah serta budaya belum dikemas secara modern (Mata Kuliah Digital
+Entrepreneurship, t.t.). Penelitian di Aceh Besar menunjukkan bahwa promosi
+sejumlah destinasi alam masih terbatas pada beberapa unggahan dan Reels di
+
+
+
+
+                                        3
+Instagram (Primestike, t.t.), dan kajian atas Air Terjun Suhom menyimpulkan
+bahwa pengelolaannya belum menentu dan sulit diprediksi (Islahuddin, t.t.).
+        Dari sisi wisatawan, informasi praktis seperti jam buka, harga tiket, akses
+jalan, dan layanan pendukung umumnya tersebar di berbagai sumber. Aplikasi
+perjalanan umum cenderung berfokus pada tiket, hotel, dan transportasi, sedangkan
+peta digital menampilkan lokasi dan ulasan tanpa layanan pemesanan pemandu atau
+paket wisata lokal. Dari sisi masyarakat lokal, pengelola destinasi, pemandu, dan
+penyedia paket belum memiliki wadah promosi dan pemesanan yang tepercaya.
+        Berdasarkan kondisi tersebut, diperlukan platform digital terpadu yang
+memperkenalkan destinasi wisata Aceh, termasuk yang belum banyak dikenal,
+menyajikan informasi yang lengkap, dan memungkinkan wisatawan memesan
+layanan secara langsung, sekaligus membuka akses pasar bagi masyarakat lokal.
+Gagasan inilah yang melatarbelakangi AtjehTrail.
+Identifikasi Masalah
+   1. Destinasi di luar yang sudah populer, khususnya di desa-desa, kurang
+       terekspos dan informasinya terbatas.
+   2. Informasi praktis destinasi, seperti jam buka, harga, akses, dan fasilitas,
+       tersebar dan tidak seragam.
+   3. Layanan pendukung wisata, yaitu pemandu, penginapan, dan paket tour,
+       belum terintegrasi dan sulit dipesan.
+   4. Narasi sejarah dan budaya belum dikemas secara menarik dan modern.
+   5. Pelaku lokal belum memiliki wadah promosi dan pemesanan yang
+       tepercaya.
+
+1.2 Solusi Berbasis Inovasi Teknologi dan Kearifan Lokal
+
+       AtjehTrail adalah platform wisata terpadu berbasis web dan aplikasi yang
+memuat destinasi wisata Aceh beserta layanan pendukungnya dalam satu tempat.
+Pada tahap awal, wilayah layanan adalah Kota Banda Aceh dan Kabupaten Aceh
+Besar. Fitur utamanya adalah sebagai berikut.
+   • Destinasi lengkap: foto, jam buka, harga, peta, penjelasan sejarah dan
+       budaya, akses, dan tips etika berkunjung.
+   • Permata Tersembunyi: destinasi di desa yang belum banyak dikenal,
+       diusulkan oleh warga, dan diverifikasi sebelum tayang.
+   • Pemesanan langsung: tiket atau registrasi kunjungan, pemandu lokal,
+       penginapan, dan paket tour.
+
+
+
+
+                                        4
+   •    Ulasan terverifikasi: hanya pengguna yang telah memesan dan
+        menyelesaikan kunjungan yang dapat memberi penilaian.
+    • Daftar Mitra: pengelola destinasi, pemandu, penginapan, dan penyedia
+        paket mendaftar sendiri dan melalui proses verifikasi.
+        Dari sisi kearifan lokal, AtjehTrail melibatkan gampong dan kelompok
+sadar wisata dalam verifikasi mitra, memuat panduan etika berkunjung yang sesuai
+dengan adat dan syariat, serta menyisihkan sebagian pendapatan komisi sebagai
+kontribusi bagi gampong tempat destinasi berada.
+        AtjehTrail juga menjawab kebutuhan warga akan tempat melepas penat
+yang dekat dari rumah. Platform ini membantu pengguna menemukan tempat untuk
+“healing” di sekitar Banda Aceh dan Aceh Besar tanpa harus melakukan perjalanan
+jauh, baik untuk perorangan, keluarga, maupun rombongan.
+
+1.3 Visi, Misi, dan Tujuan Usaha Startup
+Visi
+     Menjadi platform wisata terpadu yang tepercaya di Aceh, yang
+memperkenalkan destinasi dari yang terkenal hingga yang tersembunyi dan
+memberdayakan masyarakat lokal.
+
+Misi
+   1. Menyajikan informasi destinasi wisata Aceh yang lengkap, akurat, dan
+      menarik, termasuk sejarah dan budayanya.
+   2. Mengekspos destinasi yang belum banyak dikenal melalui usulan warga dan
+      proses verifikasi.
+   3. Memudahkan wisatawan memesan tiket, pemandu, penginapan, dan paket
+      tour dalam satu platform.
+   4. Membuka akses pasar dan pendapatan bagi pengelola, pemandu, dan
+      penyedia layanan lokal.
+   5. Menjaga kearifan lokal dan etika berwisata melalui kemitraan dengan
+      gampong dan lembaga terkait.
+
+Tujuan Usaha
+   • Pada tahun pertama, memiliki 60 destinasi terverifikasi di Banda Aceh dan
+      Aceh Besar, 45 mitra aktif, dan 1.800 pesanan.
+   • Pada tahun ketiga, memiliki 300 destinasi, 250 mitra aktif, dan 12.000
+      pesanan per tahun, disertai perluasan ke kabupaten dan kota lain di Aceh.
+   • Mencapai laba operasional pada tahun kedua serta memberi kontribusi
+      pendapatan bagi gampong mitra.
+
+
+
+
+                                       5
+                               BAB II
+                 GAMBARAN PRODUK DAN PROTOTIPE (MVP)
+
+2.1 Deskripsi Produk/Jasa dan Fitur Utama
+
+        AtjehTrail dirancang sebagai aplikasi satu pintu yang dapat diakses melalui
+peramban telepon seluler dan dikembangkan menjadi aplikasi seluler pada tahap
+lanjutan. Pengguna tidak perlu berpindah-pindah aplikasi untuk mencari destinasi,
+memesan layanan, dan melihat ulasan. Fitur utama prototipe (Minimum Viable
+Product) disajikan pada Tabel 2.1.
+                          Tabel 2.1 Fitur Utama AtjehTrail
+      Fitur                           Deskripsi                           Pengguna
+ Destinasi         Halaman destinasi berisi galeri foto, jam buka,    Wisatawan
+                   harga tiket, peta, penjelasan sejarah dan
+                   budaya, akses, fasilitas, tips etika berkunjung,
+                   dan ulasan
+ Permata           Penanda destinasi di desa yang belum banyak        Wisatawan, warga
+ Tersembunyi       dikenal dan telah diverifikasi
+ Penginapan        Daftar dan pemesanan homestay atau villa,          Wisatawan,
+                   termasuk yang dekat dengan destinasi               pengelola
+                                                                      penginapan
+ Pemandu           Pencarian pemandu berdasarkan bahasa,              Wisatawan,
+ Lokal             keahlian, dan area, serta pemesanan pada           pemandu
+                   tanggal tertentu
+ Paket Tour        Paket siap pakai yang menggabungkan                Wisatawan,
+                   beberapa destinasi, pemandu, konsumsi, dan         penyelenggara
+                   antar-jemput                                       paket
+ Registrasi        Setiap destinasi memiliki registrasi kunjungan,    Wisatawan
+ Kunjungan dan     gratis atau berbayar, yang menghasilkan e-
+ Pesanan           voucher
+ Ulasan            Penilaian bintang, penilaian pelayanan,            Wisatawan
+ Terverifikasi     komentar, dan foto dari pengguna yang telah
+                   menyelesaikan kunjungan
+ Usulkan           Formulir usulan destinasi baru oleh warga yang     Warga
+ Tempat            kemudian diverifikasi
+ Daftar Mitra      Pengajuan menjadi mitra oleh pengelola,            Calon mitra
+                   pemandu, penginapan, atau penyelenggara
+                   paket
+
+
+       Dalam satu aplikasi, setiap pengguna memiliki satu akun. Pengguna yang
+ingin menjadi penyedia layanan mengajukan Daftar Mitra melalui menu Profil.
+
+
+
+
+                                            6
+Setelah diverifikasi, akun tersebut memperoleh akses Dasbor Mitra untuk
+mengelola listing, jadwal, dan pesanan. Pembagian ini menjaga tampilan wisatawan
+tetap sederhana.
+        Layanan dapat dipesan dengan dua cara. Pertama, sebagai paket tour yang
+telah disusun penyelenggara. Kedua, sebagai layanan satuan, misalnya wisatawan
+yang hanya membutuhkan tiket, pemandu, atau penginapan. Transportasi tidak
+disediakan sebagai layanan sewa terpisah, tetapi sebagai tambahan antar-jemput
+pada pesanan atau bagian dari paket apabila mitra menyediakannya. Alur
+pemesanan wisatawan ditunjukkan pada Gambar 2.1.
+
+
+
+
+                       Gambar 2.1 Alur Pemesanan Wisatawan
+
+       Pada tahap pilot, destinasi dikumpulkan dari Kota Banda Aceh dan
+Kabupaten Aceh Besar dengan kategori alam, sejarah, budaya, religi, dan edukasi
+bencana. Contoh destinasi yang menjadi isi awal platform disajikan pada Tabel 2.2.
+Jam buka, harga, dan akses setiap destinasi diverifikasi kembali oleh tim pada
+proses onboarding.
+                     Tabel 2.2 Contoh Destinasi pada Tahap Pilot
+ No       Destinasi           Lokasi      Kategori            Keterangan
+ 1    Rumoh Aceh           Banda Aceh    Budaya,      Rumah tradisional di
+      (Museum Aceh)                      Sejarah      lingkungan museum (Asia for
+                                                      Visitors, t.t.)
+ 2    Kerkhof Peucut       Banda Aceh    Sejarah      Pemakaman tentara Belanda
+                                                      dengan lebih dari 2.000
+                                                      makam (Trip.com, t.t.)
+ 3    Gunongan dan         Banda Aceh    Sejarah      Peninggalan Kesultanan Aceh
+      Pinto Khop                                      (Trip.com, t.t.)
+ 4    Masjid Raya          Banda Aceh    Religi,      Ikon sejarah Banda Aceh
+      Baiturrahman                       Sejarah      (Trip.com, t.t.)
+
+
+
+
+                                         7
+ No           Destinasi         Lokasi       Kategori            Keterangan
+ 5        Museum Tsunami      Banda Aceh   Edukasi       Wisata edukasi kebencanaan
+          dan PLTD Apung                   Bencana       (Antara, 2026)
+ 6        Benteng Indra       Aceh Besar   Sejarah       Peninggalan Hindu-Buddha
+          Patra                                          sebelum Islam masuk
+                                                         (Telkomsel, t.t.)
+ 7        Gampong Wisata      Aceh Besar   Desa          50 besar Anugerah Desa
+          Nusa                             Wisata,       Wisata Indonesia 2021
+                                           Budaya        (Antara, 2026)
+ 8        Air Terjun          Lhoong,      Alam          Air terjun bertingkat
+          Seuhom              Aceh Besar                 (Djawanews, t.t.)
+ 9        Air Terjun Kuta     Aceh Besar   Alam          Air terjun dengan 489 anak
+          Malaka                                         tangga (Djawanews, t.t.)
+ 10       Air Terjun Tahura   Aceh Besar   Alam          Air terjun di Lembah
+          Saree                                          Seulawah (Viva, t.t.)
+ 11       Pantai Lhok Mee     Aceh Besar   Alam          Pantai sekitar 35 kilometer
+                                                         dari Banda Aceh (Popbela,
+                                                         t.t.)
+ 12       Pantai Lhok Seudu   Aceh Besar   Alam          Pantai dengan dermaga kayu
+                                                         untuk menikmati senja
+                                                         (Djawanews, t.t.)
+
+
+
+2.2 Keunggulan Inovasi Teknologi dan Nilai Tambah (Value Proposition)
+
+      •    Berfokus pada Aceh: konten, kurasi, dan mitra berasal dari daerah setempat.
+      •    Mengekspos destinasi yang belum dikenal melalui usulan warga dan proses
+           verifikasi.
+      •    Informasi lengkap dan pemesanan layanan dalam satu tempat.
+      •    Ulasan terverifikasi, karena hanya pengguna yang telah memesan dan
+           menyelesaikan kunjungan yang dapat menilai.
+      •    Kepercayaan melalui verifikasi tiga lapis dan lencana terverifikasi pada
+           mitra dan destinasi.
+      •    Dampak lokal melalui kontribusi pendapatan bagi gampong mitra.
+      •    Ramah etika dan ibadah melalui panduan sebelum berkunjung dan filter
+           fasilitas ibadah.
+
+       Perbandingan dengan solusi yang sudah ada dalam konteks wisata lokal
+Aceh disajikan pada Tabel 2.3.
+
+
+
+
+                                            8
+            Tabel 2.3 Perbandingan AtjehTrail dengan Solusi yang Ada
+                                                 Keterbatasan terhadap Kebutuhan
+     Pembanding             Fokus Utama
+                                                        Wisata Lokal Aceh
+ Aplikasi perjalanan      Tiket, hotel, dan     Umumnya tidak berfokus pada destinasi
+ umum (misalnya           transportasi secara   desa, pemandu lokal, dan paket wisata
+ Traveloka dan            luas                  lokal Aceh
+ Tiket.com)
+ Peta digital (misalnya   Lokasi dan ulasan     Tidak menyediakan pemesanan
+ Google Maps)             tempat                pemandu atau paket, dan informasi
+                                                sejarah tidak terkurasi
+ Media sosial dan         Promosi dan           Tidak terpusat, sulit diverifikasi, dan
+ WhatsApp                 pemesanan             tidak ada sistem ulasan terverifikasi
+                          langsung
+ Agen tur konvensional Paket perjalanan         Cakupan destinasi terbatas dan kurang
+                       terjadwal                menampilkan destinasi kecil di desa
+
+
+
+2.3 Visualisasi Prototipe/Desain
+
+       Prototipe AtjehTrail memiliki empat menu utama pada navigasi bawah,
+yaitu Beranda, Jelajah, Pesanan, dan Profil. Peta navigasi aplikasi ditunjukkan pada
+Gambar 2.2, sedangkan rincian isi dan alur tiap layar dijelaskan pada Lampiran A.
+
+
+
+
+                    Gambar 2.2 Peta Navigasi Aplikasi AtjehTrail
+
+
+
+
+                                            9
+       Prototipe dikembangkan dalam dua tahap. Tahap pertama adalah desain
+antarmuka menggunakan perangkat desain. Tahap kedua adalah implementasi
+website uji coba berdasarkan Spesifikasi Layar (Lampiran A) dan Entitas Data
+(Lampiran B). Data pada prototipe berupa data contoh yang bersumber dari
+referensi pada Tabel 2.2. Sisi mitra dijelaskan sebagai alur operasional pada Bab IV
+dan tidak dirancang pada prototipe, kecuali formulir Daftar Mitra. Tautan desain
+dan website uji coba tercantum pada Lampiran C.
+                            Tabel 2.4 Daftar Layar Prototipe
+ Kode              Layar                               Fungsi Utama
+  A1     Pengantar                   Memperkenalkan aplikasi
+  A2     Masuk dan Daftar            Autentikasi pengguna
+  A3     Beranda                     Pintu masuk menu layanan, promosi, dan
+                                     rekomendasi
+  A4     Pencarian                   Mencari destinasi, penginapan, pemandu, dan paket
+  A5     Jelajah                     Menelusuri semua layanan dengan filter dan peta
+  A6     Detail Destinasi            Informasi lengkap dan pintu pemesanan
+  A7     Detail Pemandu              Profil dan pemesanan pemandu
+  A8     Detail Penginapan           Profil dan pemesanan penginapan
+  A9     Detail Paket                Itinerary dan pemesanan paket
+  A10    Halaman Pesan               Pengisian data pesanan dan pembayaran (simulasi)
+  A11    Konfirmasi dan E-           Bukti pemesanan
+         voucher
+  A12    Pesanan                     Memantau status pesanan
+  A13    Beri Ulasan                 Mengisi penilaian setelah kunjungan
+  A14    Profil                      Data diri dan menu pengguna
+  A15    Usulkan Tempat              Mengusulkan destinasi baru
+  A16    Daftar Mitra                Mengajukan menjadi mitra
+
+
+
+
+                                           10
+                              BAB III
+                  MODEL BISNIS DAN ANALISIS PASAR
+
+3.1 Business Model Canvas (BMC) 9 Building Blocks
+
+      Model bisnis AtjehTrail dirumuskan dalam sembilan blok Business Model
+Canvas pada Tabel 3.1.
+                  Tabel 3.1 Business Model Canvas AtjehTrail
+      Blok                                        Uraian
+Customer             Wisatawan dan warga Banda Aceh dan Aceh Besar, wisatawan
+Segments             dari daerah lain di Aceh dan nusantara, keluarga, serta
+                     rombongan sekolah dan instansi. Dari sisi penyedia, pengelola
+                     destinasi, pemandu, penyedia penginapan, dan penyelenggara
+                     paket.
+Value Propositions   Informasi destinasi lengkap termasuk yang belum dikenal,
+                     pemesanan tiket, pemandu, penginapan, dan paket dalam satu
+                     tempat, ulasan terverifikasi, mitra terverifikasi, dan dampak bagi
+                     gampong.
+Channels             Website responsif dan aplikasi, media sosial, kerja sama
+                     kelompok sadar wisata, komunitas, dan sekolah.
+Customer             Layanan bantuan melalui pesan, sistem ulasan dan balasan mitra,
+Relationships        notifikasi promo, dan komunitas pengguna.
+Revenue Streams      Komisi pemesanan (tiket 8%, pemandu 15%, penginapan 10%,
+                     paket 12%), biaya layanan Rp5.000 per pesanan, featured listing
+                     dan sewa banner beranda, serta kemitraan dan sponsor.
+Key Resources        Tim inti, platform teknologi, basis data destinasi dan konten
+                     sejarah, jaringan mitra, dan reputasi verifikasi.
+Key Activities       Pengembangan platform, kurasi konten, verifikasi dan pembinaan
+                     mitra, pemasaran, pengelolaan pembayaran, dan penanganan
+                     keluhan.
+Key Partners         Gampong dan kelompok sadar wisata, dinas kebudayaan dan
+                     pariwisata, pengelola destinasi, pemandu, penginapan,
+                     penyelenggara paket, penyedia pembayaran digital, dan
+                     komunitas wisata.
+Cost Structure       Honor tim, hosting dan pemeliharaan sistem, produksi konten,
+                     pemasaran, biaya pembayaran, dukungan pelanggan, dan
+                     kontribusi gampong.
+
+
+
+
+                                          11
+3.2 Segmentasi, Target Pasar, dan Positioning (STP)
+
+Segmentasi
+   • Geografis: warga Kota Banda Aceh dan Kabupaten Aceh Besar, wisatawan
+     dari kabupaten dan kota lain di Aceh, serta wisatawan nusantara yang
+     berkunjung ke Aceh.
+   • Demografis: usia 18 sampai 55 tahun, mencakup perorangan, pasangan,
+     keluarga, pekerja, komunitas, serta rombongan sekolah dan instansi.
+   • Perilaku: mencari tempat melepas penat dekat kota, wisata keluarga akhir
+     pekan, wisata sejarah yang edukatif, atau perjalanan kelompok, dan terbiasa
+     memesan secara daring.
+
+Target Pasar
+       Target pasar utama adalah warga Banda Aceh dan Aceh Besar serta
+wisatawan dari daerah lain di Aceh yang membutuhkan informasi dan layanan
+wisata di sekitar kota. Target berikutnya adalah wisatawan nusantara dan
+rombongan sekolah atau instansi. Dari sisi penyedia, target awalnya adalah
+pengelola destinasi, pemandu, dan penyedia penginapan di dua wilayah pilot.
+Pemilihan pasar domestik didukung oleh data bahwa kunjungan wisatawan
+nusantara ke Aceh sangat besar sementara kunjungan wisatawan mancanegara
+menurun (InfoPublik, 2025; Detik, 2026).
+
+Positioning
+        Bagi warga dan wisatawan yang ingin menjelajahi Aceh, AtjehTrail adalah
+platform wisata terpadu yang memuat destinasi, mulai dari yang terkenal hingga
+yang tersembunyi, lengkap dengan informasi dan pemesanan layanan lokal yang
+terverifikasi, berbeda dengan aplikasi perjalanan umum yang tidak berfokus pada
+wisata lokal Aceh.
+
+3.3 Analisis Pesaing dan Matriks Profil Persaingan
+
+       Pesaing AtjehTrail dikelompokkan menjadi tiga, yaitu aplikasi perjalanan
+umum seperti Traveloka dan Tiket.com, peta digital seperti Google Maps, serta
+media sosial dan WhatsApp yang digunakan untuk promosi dan pemesanan
+langsung. Penilaian dilakukan pada enam faktor kritis dengan rating 1 (lemah)
+sampai 4 (sangat kuat). Hasilnya disajikan pada Tabel 3.2, dengan nilai dalam
+kurung adalah skor tertimbang (bobot dikali rating).
+
+
+
+
+                                      12
+                           Tabel 3.2 Matriks Profil Persaingan
+                                                    Aplikasi                  Media
+                                                                  Peta
+       Faktor Kritis         Bobot AtjehTrail      Perjalanan               Sosial dan
+                                                                 Digital
+                                                     Umum                   WhatsApp
+ Fokus pada wisata lokal      0,25    4 (1,00)      1 (0,25)     2 (0,50)    2 (0,50)
+ Aceh
+ Kelengkapan informasi        0,20    4 (0,80)      3 (0,60)     3 (0,60)    2 (0,40)
+ destinasi (jam, harga,
+ sejarah)
+ Pemesanan layanan lokal      0,20    4 (0,80)      2 (0,40)     1 (0,20)    2 (0,40)
+ (pemandu, paket)
+ Kepercayaan dan              0,15    3 (0,45)      3 (0,45)     2 (0,30)    1 (0,15)
+ verifikasi mitra lokal
+ Kemudahan penggunaan         0,10    3 (0,30)      4 (0,40)     4 (0,40)    3 (0,30)
+ Jangkauan dan pengenalan     0,10    1 (0,10)      4 (0,40)     4 (0,40)    3 (0,30)
+ merek
+ Total Skor                   1,00     3,45           2,50        2,40         2,05
+
+
+
+        Total skor AtjehTrail sebesar 3,45, lebih tinggi dibandingkan aplikasi
+perjalanan umum (2,50), peta digital (2,40), dan media sosial serta WhatsApp
+(2,05). Keunggulan AtjehTrail terletak pada fokus wisata lokal, kelengkapan
+informasi destinasi, dan pemesanan layanan lokal. Kelemahannya adalah jangkauan
+dan pengenalan merek yang masih rendah sebagai pendatang baru. Karena itu,
+strategi pemasaran difokuskan pada kemitraan dengan gampong, komunitas, dan
+sekolah serta konten media sosial untuk membangun pengenalan merek.
+
+
+
+
+                                              13
+                               BAB IV
+                 RENCANA PEMASARAN DAN OPERASIONAL
+
+4.1 Bauran Pemasaran (4P)
+
+Product (Produk)
+       Produk AtjehTrail adalah platform informasi dan pemesanan wisata dengan
+layanan destinasi, penginapan, pemandu lokal, dan paket tour. Contoh paket yang
+disiapkan pada tahap pilot disajikan pada Tabel 4.1.
+                      Tabel 4.1 Contoh Paket Tour Tahap Pilot
+                                                            Harga per
+      Paket                      Isi Perjalanan                          Ketentuan
+                                                             Orang
+ Jejak Sejarah       Museum Aceh dan Rumoh Aceh,             Rp275.000 Minimal 4
+ Banda Aceh          Gunongan dan Pinto Khop, Kerkhof                  orang, 1 hari
+                     Peucut, serta Masjid Raya
+                     Baiturrahman, dengan pemandu dan
+                     makan siang
+ Healing Alam        Air Terjun Tahura Saree dan Pantai      Rp350.000 Minimal 4
+ Aceh Besar          Lhok Seudu, dengan pemandu dan                    orang, 1 hari
+                     antar-jemput
+ Desa Wisata dan     Gampong Wisata Nusa dan Benteng         Rp300.000 Minimal 4
+ Benteng             Indra Patra, dengan pemandu, antar-               orang, 1 hari
+                     jemput, dan makan siang
+
+
+Price (Harga)
+       Akses wisatawan ke aplikasi gratis. Pendapatan diperoleh dari komisi atas
+pemesanan, biaya layanan, dan layanan promosi bagi mitra, sebagaimana disajikan
+pada Tabel 4.2.
+                          Tabel 4.2 Skema Harga dan Pendapatan
+                 Komponen                                    Ketentuan
+ Komisi tiket atau registrasi kunjungan       8% dari nilai pesanan
+ Komisi pemandu lokal                         15% dari nilai pesanan
+ Komisi penginapan                            10% dari nilai pesanan
+ Komisi paket tour                            12% dari nilai pesanan
+ Biaya layanan wisatawan                      Rp5.000 per pesanan
+ Featured listing mitra                       Rp300.000 per bulan
+ Sewa banner beranda untuk paket atau         Rp1.500.000 per minggu
+ destinasi
+
+
+
+
+                                           14
+               Komponen                                Ketentuan
+ Kemitraan dan sponsor                  Sesuai kesepakatan dengan instansi,
+                                        perbankan, atau perusahaan
+
+
+        Harga komisi ditetapkan dengan mempertimbangkan bahwa mitra kecil
+perlu tetap memperoleh bagian pendapatan yang layak, sedangkan platform harus
+menutup biaya pembayaran, dukungan pelanggan, dan operasional.
+
+Place (Tempat/Distribusi)
+       Layanan disediakan melalui website responsif yang dapat dibuka dari
+telepon seluler dan dikembangkan menjadi aplikasi seluler. Wilayah awal adalah
+Kota Banda Aceh dan Kabupaten Aceh Besar. Distribusi informasi dan pendaftaran
+mitra didukung oleh gampong, kelompok sadar wisata, dan komunitas wisata
+setempat.
+Promotion (Promosi)
+   • Konten media sosial tentang sejarah, budaya, dan destinasi tersembunyi
+     Aceh, termasuk cerita singkat tiap destinasi.
+   • Program Permata Tersembunyi yang mengajak warga mengusulkan dan
+     menampilkan tempat di sekitar mereka.
+   • Promo musiman, voucher perdana, dan diskon rombongan bagi sekolah,
+     komunitas, dan instansi.
+   • Kolaborasi dengan komunitas fotografi, pecinta alam, dan pembuat konten
+     lokal.
+   • Kegiatan perkenalan di gampong mitra dan acara wisata bersama dinas
+     terkait.
+
+4.2 Alur Proses Operasional dan Rantai Pasok (Supply Chain)
+
+Alur Operasional Mitra
+        Mitra mendaftar melalui menu Daftar Mitra, kemudian melalui proses
+verifikasi sebelum layanannya tayang. Alur lengkapnya ditunjukkan pada Gambar
+4.1.
+
+
+
+
+                                     15
+                      Gambar 4.1 Alur Operasional Mitra
+
+       Verifikasi dilakukan dalam tiga lapis. Lapis pertama adalah pemeriksaan
+berkas, yaitu identitas, foto lokasi, dan surat konfirmasi dari gampong atau
+kelompok sadar wisata, serta izin pemilik lahan untuk destinasi yang berada di
+tanah warga. Lapis kedua adalah tinjauan admin berupa pemeriksaan data,
+komunikasi dengan mitra, dan konfirmasi lembaga lokal. Lapis ketiga adalah
+pemberian status dan lencana, yaitu Menunggu Verifikasi dan Terverifikasi. Mitra
+yang melanggar ketentuan atau menerima ulasan buruk berulang dapat dikenai
+penangguhan.
+
+Alur Pemesanan dan Dana
+       Wisatawan membayar sekali kepada platform untuk seluruh layanan dalam
+satu pesanan. Dana ditahan platform sampai kunjungan dikonfirmasi selesai,
+kemudian diteruskan kepada mitra setelah komisi dipotong. Alur dana ditunjukkan
+pada Gambar 4.2.
+
+
+
+
+                    Gambar 4.2 Alur Pemesanan dan Dana
+
+
+
+
+                                      16
+Rantai Pasok
+       Rantai pasok AtjehTrail berupa rantai pasok layanan dan informasi yang
+melibatkan pihak-pihak pada Tabel 4.3.
+                       Tabel 4.3 Pelaku Rantai Pasok AtjehTrail
+         Pelaku                                 Peran dan Kontribusi
+ Pengelola destinasi        Menyediakan informasi, tiket, dan fasilitas destinasi
+ Pemandu lokal              Menyediakan jasa pemanduan dan narasi sejarah
+ Penyedia penginapan        Menyediakan homestay atau villa
+ Penyelenggara paket        Menyusun itinerary, konsumsi, dan antar-jemput
+ Warga dan komunitas        Mengusulkan tempat, mengunggah foto, dan memberi
+                            ulasan
+ Gampong dan kelompok Membantu verifikasi mitra dan destinasi
+ sadar wisata
+ Dinas kebudayaan dan       Menyediakan data, rujukan, dan dukungan promosi
+ pariwisata
+ AtjehTrail                 Menyediakan sistem, kurasi, verifikasi, pembayaran, dan
+                            promosi
+ Wisatawan                  Pemesan layanan dan pemberi ulasan
+
+
+
+4.3 Integrasi Lembaga/Aturan Adat Lokal Aceh
+
+        AtjehTrail dirancang selaras dengan kearifan lokal Aceh. Gampong, yang
+dipimpin oleh keuchik, dan kelompok sadar wisata dilibatkan sebagai pihak yang
+mengonfirmasi mitra dan destinasi di wilayahnya. Keterlibatan ini membuat
+informasi yang tayang lebih tepercaya dan memberi masyarakat setempat peran
+dalam pengelolaan wisata di daerahnya. Bentuk integrasinya adalah sebagai
+berikut.
+    • Verifikasi mitra dan destinasi melalui konfirmasi gampong atau kelompok
+        sadar wisata, termasuk izin pemilik lahan.
+    • Panduan etika berkunjung pada setiap destinasi, misalnya tata cara
+        berpakaian, menghormati waktu ibadah, dan menjaga kebersihan
+        lingkungan.
+    • Tokoh adat, sejarawan, dan lembaga terkait sebagai peninjau konten sejarah
+        dan budaya.
+    • Kontribusi sebesar 10% dari pendapatan komisi untuk gampong tempat
+        destinasi berada, yang dikelola untuk kebersihan dan pemeliharaan lokasi.
+
+
+
+
+                                           17
+•   Filter fasilitas ibadah dan informasi kehalalan makanan untuk memudahkan
+    perencanaan perjalanan.
+
+
+
+
+                                   18
+                            BAB V
+                MANAJEMEN SDM DAN STRUKTUR TIM
+
+5.1 Struktur Organisasi Tim Startup (Organigram)
+
+       Tim inti AtjehTrail terdiri atas lima orang yang dipimpin oleh seorang CEO
+dan dibantu empat posisi kunci, sebagaimana ditunjukkan pada Gambar 5.1. Pada
+tahun kedua, tim diperkuat dengan dua staf operasional, yaitu koordinator mitra
+lapangan serta staf konten dan moderasi.
+                           CEO (Chief Executive Officer)
+                           Nama: …………………………
+  Chief Technology      Head of Product        Chief Marketing     Chief Financial
+       Officer            dan UI/UX                Officer            Officer
+       Nama:                Nama:                  Nama:               Nama:
+  …………………               …………………                …………………             …………………
+
+
+                     Gambar 5.1 Struktur Organisasi AtjehTrail
+
+5.2 Analisis Jabatan: Job Description dan Job Specification Posisi Kunci
+                Tabel 5.1 Job Description dan Job Specification
+    Jabatan                Job Description                   Job Specification
+ CEO             Menetapkan arah dan strategi          Kepemimpinan, komunikasi
+ Nama:           usaha, mengoordinasikan seluruh       dan negosiasi, pemahaman
+ ………………          tim, membangun kemitraan dengan       bisnis dan pariwisata, serta
+ …               gampong, dinas, dan mitra utama,      kemampuan mengambil
+                 serta bertanggung jawab atas          keputusan.
+                 kinerja usaha.
+ Chief           Mengembangkan dan memelihara          Penguasaan pengembangan
+ Technology      platform, mengelola basis data,       web dan basis data,
+ Officer         keamanan, dan integrasi               pemahaman keamanan sistem,
+ Nama:           pembayaran, serta memastikan          dan kemampuan pemecahan
+ ………………          aplikasi berjalan andal.              masalah teknis.
+ …
+ Head of         Merancang pengalaman pengguna         Penguasaan perangkat desain,
+ Product dan     dan antarmuka, menyusun prioritas     pemahaman riset pengguna,
+ UI/UX           fitur, serta menerjemahkan            dan kemampuan menyusun
+ Nama:           kebutuhan pengguna menjadi            spesifikasi produk.
+ ………………          desain.
+ …
+
+
+
+
+                                          19
+   Jabatan                Job Description                  Job Specification
+Chief             Menyusun dan menjalankan           Kemampuan pemasaran digital,
+Marketing         strategi pemasaran, mengelola      penulisan konten, kreativitas,
+Officer           konten dan media sosial, serta     serta komunikasi dengan
+Nama:             merekrut dan membina mitra         masyarakat.
+………………            bersama gampong dan komunitas.
+…
+Chief Financial   Menyusun anggaran dan proyeksi     Pemahaman akuntansi dan
+Officer           keuangan, mengelola arus kas dan   analisis kelayakan usaha,
+Nama:             pencairan dana mitra, serta        ketelitian, dan integritas.
+………………            menyusun laporan keuangan.
+…
+
+
+
+5.3 Penerapan Prinsip Pengelolaan SDM dan Job Design
+
+   •   Rekrutmen dan seleksi: anggota tim dipilih berdasarkan kompetensi teknis,
+       kemampuan bekerja sama, dan komitmen waktu. Staf operasional dan mitra
+       lapangan direkrut dengan memprioritaskan masyarakat setempat yang
+       mengenal wilayahnya.
+   •   Pelatihan dan pengembangan: pelatihan penggunaan platform bagi mitra,
+       pelatihan pelayanan wisata dan etika berkunjung, serta peningkatan
+       kemampuan teknis dan pemasaran bagi tim.
+   •   Kompensasi: honor tetap bulanan bagi tim inti dan staf, dengan insentif
+       berbasis pencapaian target pesanan dan kualitas layanan.
+   •   Job design: menerapkan job enrichment dengan memberi tanggung jawab
+       dan kewenangan pengambilan keputusan sesuai bidang, serta job rotation
+       terbatas antar-posisi agar anggota memahami keseluruhan proses.
+   •   Penilaian kinerja: setiap posisi memiliki indikator kinerja utama, misalnya
+       jumlah mitra terverifikasi dan pesanan bagi CMO, ketersediaan sistem bagi
+       CTO, kepuasan pengguna bagi Head of Product, dan ketepatan laporan dan
+       pencairan dana bagi CFO. Evaluasi dilakukan setiap bulan.
+   •   Budaya kerja: menjunjung kejujuran, kerja sama, dan penghormatan
+       terhadap adat dan nilai lokal.
+
+
+
+
+                                        20
+                                 BAB VI
+                     ANALISIS KELAYAKAN FINANSIAL
+
+       Analisis kelayakan finansial disusun untuk periode tiga tahun operasional
+dengan wilayah awal Kota Banda Aceh dan Kabupaten Aceh Besar. Tahun pertama
+dihitung sejak peluncuran layanan setelah masa persiapan selama enam bulan.
+
+6.1 Kebutuhan Modal Awal (Start-up Fund) dan Modal Kerja
+                Tabel 6.1 Kebutuhan Modal Awal dan Modal Kerja
+                          Komponen                             Jumlah (Rp)
+ Pengembangan platform tahap awal                                    45.000.000
+ Desain antarmuka dan pengalaman pengguna (UI/UX)                    10.000.000
+ Produksi konten awal (foto, video, dan narasi 60 destinasi)         25.000.000
+ Persiapan infrastruktur, keamanan, dan integrasi pembayaran          8.000.000
+ Perangkat kerja (laptop dan peralatan dokumentasi)                  30.000.000
+ Legalitas usaha (pendirian badan usaha, izin, dan merek)            12.000.000
+ Pendaftaran dan pelatihan mitra awal                                15.000.000
+ Pemasaran peluncuran                                                20.000.000
+ Dana cadangan (10%)                                                 16.500.000
+ Total modal awal                                                   181.500.000
+ Modal kerja (setara enam bulan biaya operasional tahun             100.000.000
+ pertama)
+ Total kebutuhan dana                                               281.500.000
+
+
+       Total kebutuhan dana sebesar Rp281.500.000 direncanakan berasal dari tiga
+sumber, yaitu modal pendiri sebesar Rp50.000.000, hibah atau program pendanaan
+startup sebesar Rp100.000.000, dan pendanaan awal dari investor sebesar
+Rp131.500.000.
+
+6.2 Struktur Biaya (Biaya Tetap dan Biaya Variabel)
+
+       Biaya tetap adalah biaya yang jumlahnya tidak bergantung pada jumlah
+pesanan, sedangkan biaya variabel berubah mengikuti jumlah transaksi. Rincian
+keduanya disajikan pada Tabel 6.2.
+
+
+
+
+                                           21
+                  Tabel 6.2 Struktur Biaya Tahun 1 sampai Tahun 3 (Rp)
+               Komponen Biaya               Tahun 1        Tahun 2       Tahun 3
+ Biaya Tetap
+ Honor tim inti                              90.000.000    120.000.000   210.000.000
+ Honor staf operasional                               0     48.000.000   216.000.000
+ Hosting dan layanan cloud                     6.000.000    12.000.000    24.000.000
+ Sewa ruang kerja                            12.000.000     18.000.000    30.000.000
+ Langganan alat dan lisensi                    3.000.000     5.000.000    10.000.000
+ Administrasi dan legalitas rutin              2.000.000     4.000.000     8.000.000
+ Pemeliharaan dan pembaruan sistem           12.000.000     24.000.000    48.000.000
+ Total biaya tetap                          125.000.000    231.000.000   546.000.000
+ Biaya Variabel
+ Biaya pembayaran (2% dari nilai             14.400.000     45.360.000   105.600.000
+ transaksi)
+ Dukungan pelanggan dan operasional          18.000.000     54.000.000   120.000.000
+ (Rp10.000 per pesanan)
+ Pemasaran dan promosi                       28.000.000     45.000.000   100.000.000
+ Insentif dan promo mitra                    10.000.000     15.000.000    30.000.000
+ Kontribusi gampong (10% dari komisi)          8.640.000    27.216.000    63.360.000
+ Total biaya variabel                        79.040.000    186.576.000   418.960.000
+ Total biaya                                204.040.000    417.576.000   964.960.000
+
+
+
+6.3 Proyeksi Arus Kas (Cash Flow) dan Laba Rugi
+
+Asumsi
+   • Jumlah pesanan per tahun: 1.800 pada tahun pertama, 5.400 pada tahun
+     kedua, dan 12.000 pada tahun ketiga, seiring bertambahnya destinasi dan
+     mitra.
+   • Rata-rata nilai pesanan: Rp400.000, Rp420.000, dan Rp440.000 pada tahun
+     pertama sampai ketiga, merupakan gabungan tiket, pemandu, penginapan,
+     dan paket tour.
+   • Komisi rata-rata 12% dari nilai transaksi dan biaya layanan Rp5.000 per
+     pesanan.
+   • Pendapatan promosi berasal dari featured listing (60, 200, dan 480 bulan-
+     slot per tahun) dan sewa banner beranda (10, 24, dan 40 minggu per tahun).
+
+
+
+
+                                          22
+    •   Pendapatan kemitraan dan sponsor sebesar Rp12.000.000, Rp36.000.000,
+        dan Rp72.000.000.
+
+      Dengan asumsi tersebut, nilai transaksi (gross booking value) sebesar
+Rp720.000.000 pada tahun pertama, Rp2.268.000.000 pada tahun kedua, dan
+Rp5.280.000.000 pada tahun ketiga.
+
+Proyeksi Laba Rugi
+                              Tabel 6.3 Proyeksi Laba Rugi (Rp)
+                     Uraian                   Tahun 1         Tahun 2       Tahun 3
+ Komisi pemesanan                              86.400.000     272.160.000   633.600.000
+ Biaya layanan wisatawan                          9.000.000    27.000.000    60.000.000
+ Featured listing dan sewa banner              33.000.000      96.000.000   228.000.000
+ Kemitraan dan sponsor                         12.000.000      36.000.000    72.000.000
+ Total pendapatan                             140.400.000     431.160.000   993.600.000
+ Total biaya tetap                            125.000.000     231.000.000   546.000.000
+ Total biaya variabel                          79.040.000     186.576.000   418.960.000
+ Total biaya                                  204.040.000     417.576.000   964.960.000
+ Laba (rugi) sebelum pajak                    (63.640.000)     13.584.000    28.640.000
+
+
+
+Angka dalam kurung menunjukkan kerugian.
+
+Proyeksi Arus Kas
+                              Tabel 6.4 Proyeksi Arus Kas (Rp)
+                     Uraian                   Tahun 1         Tahun 2       Tahun 3
+ Kas awal                                     281.500.000      36.360.000    29.944.000
+ Kas masuk dari pendapatan                    140.400.000     431.160.000   993.600.000
+ Kas keluar untuk biaya operasional           204.040.000     417.576.000   964.960.000
+ Kas keluar untuk investasi                   181.500.000      20.000.000    25.000.000
+ Kas akhir                                     36.360.000      29.944.000    33.584.000
+
+
+
+Investasi tahun pertama adalah modal awal pada Tabel 6.1. Investasi tahun kedua
+dan ketiga masing-masing digunakan untuk pengembangan aplikasi seluler dan
+perluasan wilayah layanan.
+
+
+
+
+                                             23
+Titik Impas dan Analisis
+        Pada tahun pertama, usaha mengalami kerugian sebesar Rp63.640.000
+karena biaya tetap dan biaya pembangunan basis mitra belum tertutup oleh volume
+pesanan. Titik impas pada tahun pertama berada pada sekitar 3.700 pesanan,
+sedangkan pesanan yang dicapai 1.800. Pada tahun kedua, titik impas turun menjadi
+sekitar 5.100 pesanan sehingga dengan 5.400 pesanan usaha memperoleh laba
+sebesar Rp13.584.000. Pada tahun ketiga, laba meningkat menjadi Rp28.640.000
+dengan titik impas sekitar 11.400 pesanan dari 12.000 pesanan yang dicapai. Saldo
+kas tetap positif pada ketiga tahun, yaitu Rp36.360.000, Rp29.944.000, dan
+Rp33.584.000. Dengan demikian, usaha dinilai layak, dengan catatan bahwa
+pertumbuhan jumlah mitra dan pesanan menjadi faktor penentu utama dan perlu
+dipantau secara berkala.
+
+
+
+
+                                       24
+                        BAB VII
+     KESIMPULAN DAN JADWAL PELAKSANAAN (MILESTONE)
+
+7.1 Kesimpulan
+
+        AtjehTrail dirancang untuk menjawab masalah kurang terekspos dan kurang
+terintegrasinya wisata di Aceh. Platform ini menyatukan informasi destinasi,
+termasuk yang belum banyak dikenal, dengan pemesanan tiket, pemandu,
+penginapan, dan paket tour, serta melibatkan gampong dan masyarakat lokal dalam
+verifikasi dan pembagian manfaat.
+        Dari sisi pasar, pemilihan pasar domestik didukung oleh tingginya
+kunjungan wisatawan nusantara dan menurunnya kunjungan wisatawan
+mancanegara. Dari sisi bisnis, pendapatan bersumber dari komisi, biaya layanan,
+promosi mitra, dan kemitraan, dengan proyeksi mulai memperoleh laba pada tahun
+kedua. Prototipe yang dikembangkan menggunakan data contoh dan proses
+pembayaran disimulasikan, sedangkan integrasi pembayaran sungguhan dan
+aplikasi seluler direncanakan pada tahap berikutnya.
+
+7.2 Jadwal Pelaksanaan (Milestone)
+                          Tabel 7.1 Jadwal Pelaksanaan
+                                                                     Indikator
+     Tahap           Waktu                    Target
+                                                                    Keberhasilan
+ Persiapan        Bulan ke-1     Penyusunan platform tahap       Platform siap diuji
+                  sampai 3       awal, desain antarmuka,         dan 60 destinasi
+                                 legalitas usaha, dan produksi   terdata
+                                 konten awal
+ Onboarding       Bulan ke-4     Verifikasi mitra dan uji coba   45 mitra terverifikasi
+ mitra dan uji    sampai 6       terbatas di Banda Aceh dan      dan uji coba berjalan
+ coba                            Aceh Besar
+ Peluncuran dan   Bulan ke-7     Peluncuran publik dan           1.800 pesanan dan
+ operasional      sampai 18      promosi di wilayah pilot        pengguna terdaftar
+ tahun 1                                                         bertambah
+ Perluasan        Tahun kedua    Penambahan destinasi dan     5.400 pesanan dan
+ tahun 2                         mitra, pengembangan aplikasi laba operasional
+                                 seluler
+ Ekspansi tahun   Tahun ketiga   Perluasan ke kabupaten dan      300 destinasi, 250
+ 3                               kota lain di Aceh serta         mitra, dan 12.000
+                                 penguatan kemitraan             pesanan
+
+
+
+
+                                         25
+                             DAFTAR PUSTAKA
+
+Antara. (2026, 14 September). Aceh punya potensi kuat hadirkan wisata sejarah
+       dan edukasi bencana. https://www.antaranews.com/berita/5739487/aceh-
+       punya-potensi-kuat-hadirkan-wisata-sejarah-dan-edukasi-bencana
+
+Asia for Visitors. (t.t.). Banda Aceh.
+       https://asiaforvisitors.com/indonesia/sumatra/aceh/banda-aceh
+
+Detik. (2026). Turis asing liburan ke Aceh menurun.
+        https://www.detik.com/sumut/berita/d-8692632/turis-asing-liburan-ke-
+        aceh-menurun
+
+Djawanews. (t.t.). Intip keindahan Indonesia bagian barat melalui beberapa wisata
+      di Aceh Besar ini. https://www.djawanews.com/travel/intip-keindahan-
+      indonesia-bagian-barat-melalui-beberapa-wisata-di-aceh-besar-ini-5957
+InfoPublik. (2025). Kunjungan wisatawan ke Aceh meningkat tajam, capai 7,3
+       juta pada awal 2025.
+       https://infopublik.id/kategori/nusantara/923642/kunjungan-wisatawan-ke-
+       aceh-meningkat-tajam-capai-7-3-juta-pada-awal-2025
+
+InfoPublik. (2026a). September 2026, kunjungan wisman ke Aceh tercatat 3.446
+       orang. https://infopublik.id/kategori/nusantara/995659/september-2026-
+       kunjungan-wisman-ke-aceh-tercatat-3446-orang
+
+InfoPublik. (2026b). Banda Aceh siapkan strategi pariwisata berkualitas.
+       https://infopublik.id/kategori/nusantara/989956/banda-aceh-siapkan-
+       strategi-pariwisata-berkualitas
+
+Islahuddin. (t.t.). [Skripsi mengenai pengelolaan wisata Air Terjun Suhom].
+       Universitas Islam Negeri Ar-Raniry.
+       https://repository.ar-raniry.ac.id/30853/1/Islahuddin%2C
+       %20180403027%2C%20FDK%2C%20MD%2C%20082368392535.pdf
+
+Mata Kuliah Digital Entrepreneurship. (t.t.). Sektor unggulan digital
+      entrepreneurship [Modul perkuliahan]. Program Studi Teknologi
+      Informasi.
+
+Popbela. (t.t.). Tempat wisata di Banda Aceh.
+       https://www.popbela.com/lifestyle/travel/tempat-wisata-di-banda-aceh-00-
+       yl7dn-wnf2fg
+
+
+
+
+                                       26
+Primestike, I. N. (t.t.). [Skripsi mengenai promosi wisata di Aceh Besar].
+       Universitas Islam Negeri Ar-Raniry.
+       https://repository.ar-raniry.ac.id/id/eprint/41107/1/Inne%20Nuriel
+       %20Primestike%2C%20200401074%2C%20FDK%2C%20KPI.pdf
+
+Telkomsel. (t.t.). 7 tempat wisata Banda Aceh paling autentik.
+      https://www.telkomsel.com/jelajah/jelajah-lifestyle/7-tempat-wisata-
+      banda-aceh-paling-autentik
+
+Trip.com. (t.t.). Panduan wisata Banda Aceh: Destinasi, kuliner, dan tips liburan.
+       https://id.trip.com/guide/attraction/tempat-wisata-di-banda-aceh.html
+
+Viva. (t.t.). Keindahan air terjun Tahura Saree Aceh Besar.
+        https://www.viva.co.id/vbuzz/843588-keindahan-air-terjun-tahura-saree-
+        aceh-besar
+
+
+
+
+                                        27
+                                    LAMPIRAN
+
+Lampiran A. Spesifikasi Layar Prototipe
+
+       Lampiran ini menjadi acuan bagi pembuat prototipe. Setiap layar diuraikan
+berdasarkan elemen dan tujuan tiap aksi. Seluruh data bersifat data contoh, dan
+proses pembayaran disimulasikan.
+
+A1. Pengantar
+         Elemen                              Keterangan dan Tujuan
+ Logo dan slogan           Identitas aplikasi AtjehTrail
+ Tiga slide pengantar      Temukan destinasi, pesan langsung, dan dukung masyarakat
+                           lokal
+ Tombol Mulai              Menuju A2
+ Tombol Lewati             Menuju A3
+
+
+A2. Masuk dan Daftar
+         Elemen                              Keterangan dan Tujuan
+ Formulir masuk            Nomor telepon atau email dan kata sandi; tombol Masuk
+                           menuju A3
+ Formulir daftar           Nama, nomor telepon, dan kata sandi; setelah berhasil
+                           menuju A3
+ Lupa kata sandi           Simulasi pengaturan ulang kata sandi
+
+
+A3. Beranda
+         Elemen                              Keterangan dan Tujuan
+ Sapaan dan wilayah        Menampilkan nama pengguna dan wilayah layanan Banda
+                           Aceh dan Aceh Besar
+ Kolom pencarian “Mau      Menuju A4
+ ke mana?”
+ Menu layanan              Menuju A5 pada tab yang sesuai
+ (Destinasi, Penginapan,
+ Pemandu, Paket Tour)
+ Banner paket minggu       Menuju A9
+ ini
+ Populer Sekarang          Kartu horizontal destinasi; menuju A6
+ Cocok Saat Ini            Destinasi yang sesuai musim atau acara; menuju A6
+ Permata Tersembunyi       Kartu destinasi; menuju A6; Lihat semua menuju A5 dengan
+                           filter permata
+
+
+
+
+                                           28
+          Elemen                              Keterangan dan Tujuan
+ Dekat Saya                Destinasi terdekat dari lokasi pengguna; menuju A6
+ Ajakan Jadi Mitra         Menuju A16
+ Navigasi bawah            Beranda, Jelajah, Pesanan, dan Profil
+
+
+A4. Pencarian
+          Elemen                              Keterangan dan Tujuan
+ Kolom pencarian           Pencarian dengan kata kunci
+ Riwayat dan pencarian     Pintasan pencarian
+ populer
+ Hasil pencarian           Dikelompokkan menjadi Destinasi, Penginapan, Pemandu,
+                           dan Paket; setiap hasil menuju halaman detailnya
+
+
+A5. Jelajah
+          Elemen                              Keterangan dan Tujuan
+ Tab                       Destinasi, Penginapan, Pemandu, dan Paket
+ Filter                    Kabupaten atau kota, kategori, rentang harga, tingkat
+                           kesulitan, fasilitas ibadah, dan ramah keluarga
+ Urutan                    Terdekat, populer, rating, dan harga
+ Tampilan                  Daftar atau peta
+ Kartu hasil               Menuju A6, A7, A8, atau A9 sesuai jenisnya
+
+
+A6. Detail Destinasi
+          Elemen                              Keterangan dan Tujuan
+ Galeri foto               Foto resmi dan foto pengunjung
+ Judul dan lencana         Nama, kategori, rating, jumlah ulasan, lencana Terverifikasi
+                           dan Permata Tersembunyi
+ Info ringkas              Jam buka, harga tiket, jarak dari pusat kota, dan tingkat
+                           kesulitan
+ Peta                      Lokasi dan tombol arah yang membuka aplikasi peta
+ Tab Tentang dan           Penjelasan sejarah dan budaya
+ Sejarah
+ Tab Akses dan Fasilitas   Kondisi jalan, parkir, musala, dan fasilitas lain
+ Tab Etika Berkunjung      Panduan sebelum berkunjung
+ Tab Ulasan                Daftar ulasan terverifikasi
+
+
+
+
+                                           29
+          Elemen                              Keterangan dan Tujuan
+ Pemandu tersedia          Kartu pemandu; menuju A7
+ Paket yang mencakup       Kartu paket; menuju A9
+ tempat ini
+ Penginapan terdekat       Kartu penginapan; menuju A8
+ Tombol Favorit            Menyimpan destinasi
+ Tombol Pesan Sekarang     Menuju A10
+
+
+A7. Detail Pemandu
+          Elemen                              Keterangan dan Tujuan
+ Profil                    Foto, nama, bahasa, keahlian, area, rating, dan ulasan
+ Tarif                     Tarif per hari atau per sesi
+ Destinasi yang dilayani   Daftar destinasi; menuju A6
+ Kalender ketersediaan     Tanggal tersedia
+ Tombol Pesan Pemandu      Menuju A10
+
+
+A8. Detail Penginapan
+          Elemen                              Keterangan dan Tujuan
+ Galeri dan jenis          Foto dan jenis (homestay atau villa)
+ Fasilitas dan aturan      Fasilitas, aturan menginap, dan jam masuk dan keluar
+ Harga                     Harga per malam
+ Peta dan destinasi        Lokasi dan daftar destinasi terdekat; menuju A6
+ terdekat
+ Ulasan                    Daftar ulasan terverifikasi
+ Tombol Pesan              Menuju A10 dengan pilihan tanggal masuk dan keluar
+
+
+A9. Detail Paket
+          Elemen                              Keterangan dan Tujuan
+ Judul dan durasi          Nama paket, durasi, dan rating
+ Itinerary                 Rincian kegiatan per jam
+ Inklusi dan eksklusi      Yang termasuk dan tidak termasuk, misalnya pemandu,
+                           makan, dan antar-jemput
+ Titik kumpul dan kuota    Lokasi kumpul, kuota, dan tanggal keberangkatan
+ Harga                     Harga per orang
+
+
+
+
+                                           30
+        Elemen                          Keterangan dan Tujuan
+Penyelenggara dan      Profil penyelenggara dan ulasan
+ulasan
+Tombol Pesan Paket     Menuju A10
+
+
+A10. Halaman Pesan
+        Elemen                          Keterangan dan Tujuan
+Ringkasan layanan      Nama layanan, tanggal, dan jumlah orang
+Layanan tambahan       Pemandu dan antar-jemput apabila tersedia
+Data pemesan           Nama dan nomor telepon
+Kode promo             Voucher atau promo
+Rincian harga          Harga layanan, biaya layanan Rp5.000, dan potongan
+Metode pembayaran      Simulasi transfer, dompet digital, dan QRIS
+Tombol Bayar           Menuju A11
+
+
+A11. Konfirmasi dan E-voucher
+        Elemen                          Keterangan dan Tujuan
+Status berhasil        Pesan konfirmasi dan kode pesanan
+E-voucher              Kode QR dan rincian pesanan
+Tombol Simpan          Menyimpan e-voucher
+Tombol Lihat Pesanan   Menuju A12
+Tombol Kembali ke      Menuju A3
+Beranda
+
+
+A12. Pesanan
+        Elemen                          Keterangan dan Tujuan
+Tab                    Berlangsung dan Selesai
+Kartu pesanan          Status: Menunggu Pembayaran, Terkonfirmasi, Selesai, atau
+                       Dibatalkan
+Tombol E-voucher       Membuka bukti pemesanan
+Tombol Konfirmasi      Dipakai wisatawan setelah kunjungan
+Selesai
+Tombol Beri Ulasan     Muncul pada pesanan selesai; menuju A13
+
+
+
+
+                                      31
+A13. Beri Ulasan
+          Elemen                         Keterangan dan Tujuan
+ Bintang destinasi     Penilaian 1 sampai 5
+ Bintang pelayanan     Penilaian pemandu, paket, atau penginapan
+ Komentar dan foto     Teks ulasan dan unggah foto
+ Aturan                Satu ulasan per pesanan dan dalam batas waktu 14 hari
+                       setelah selesai
+ Tombol Kirim          Mengirim ulasan
+
+
+A14. Profil
+          Elemen                         Keterangan dan Tujuan
+ Identitas             Foto dan nama pengguna
+ Menu                  Favorit, Ulasan Saya, Usulkan Tempat (A15), Daftar Mitra
+                       (A16), Pengaturan notifikasi, Bantuan, dan Keluar
+
+
+A15. Usulkan Tempat
+          Elemen                         Keterangan dan Tujuan
+ Formulir              Nama tempat, kategori, lokasi (titik peta atau alamat), foto,
+                       deskripsi, akses, biaya, dan kontak pengelola
+ Pernyataan izin       Pernyataan izin pemilik lahan untuk tempat di tanah warga
+ Tombol Kirim          Status usulan menjadi Menunggu Verifikasi
+
+
+A16. Daftar Mitra
+          Elemen                         Keterangan dan Tujuan
+ Jenis mitra           Pengelola destinasi, penginapan, pemandu, atau
+                       penyelenggara paket
+ Data diri dan usaha   Nama, kontak, dan keterangan layanan
+ Unggah dokumen        Identitas, foto lokasi, dan surat konfirmasi gampong atau
+                       izin lahan
+ Persetujuan           Persetujuan terhadap kode etik
+ Status pengajuan      Menunggu Verifikasi, Disetujui, atau Perlu Perbaikan.
+                       Dasbor mitra tidak dirancang pada prototipe
+
+
+
+
+                                      32
+Lampiran B. Entitas Data
+
+       Entitas data berikut menjadi acuan penyusunan basis data atau data contoh
+pada prototipe.
+         Entitas                               Atribut Utama
+ Pengguna           id, nama, nomor telepon, email, kata sandi, peran (wisatawan atau
+                    mitra)
+ Mitra              id, pengguna, jenis mitra, nama usaha, kontak, status verifikasi,
+                    dokumen
+ Destinasi          id, nama, kategori, kabupaten atau kota, koordinat, deskripsi,
+                    sejarah, jam buka, harga tiket, tingkat kesulitan, fasilitas, etika
+                    berkunjung, status verifikasi, lencana, foto
+ Penginapan         id, mitra, nama, jenis, fasilitas, harga per malam, koordinat,
+                    destinasi terdekat, foto
+ Pemandu            id, mitra, nama, bahasa, keahlian, area, tarif, ketersediaan,
+                    destinasi yang dilayani
+ Paket              id, mitra penyelenggara, judul, durasi, itinerary, inklusi, eksklusi,
+                    harga per orang, kuota, tanggal keberangkatan, destinasi
+ Pesanan            id, pengguna, jenis layanan, layanan terkait, tanggal, jumlah
+                    orang, rincian harga, status, kode e-voucher
+ Ulasan             id, pesanan, pengguna, target, bintang, bintang pelayanan,
+                    komentar, foto, tanggal
+ Usulan Tempat      id, pengguna, data tempat, status verifikasi
+ Promo dan Banner   id, judul, tujuan, periode tayang, pemilik
+
+
+
+Lampiran C. Tautan Prototipe
+
+Tautan desain antarmuka:
+………………………………………………………………
+Tautan website uji coba:
+………………………………………………………………
+
+
+
+
+                                          33
+

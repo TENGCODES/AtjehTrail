@@ -1,0 +1,1022 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><title>AtjehTrail - Aceh Tourism Booking Platform</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-surface-variant": "#414844", "inverse-on-surface": "#e3f5e9", "inverse-primary": "#a7cfbd", "on-secondary-fixed": "#2a1800", "on-primary-fixed-variant": "#294e3f", "tertiary-fixed-dim": "#9dd2bb", "surface-tint": "#416656", "on-secondary-fixed-variant": "#643f00", "surface-variant": "#d5e7db", "on-tertiary-container": "#6fa28d", "surface-dim": "#cdded2", "background": "#ecfef1", "on-surface": "#101f17", "secondary-fixed-dim": "#ffb959", "surface-container-highest": "#d5e7db", "on-primary-container": "#79a08e", "tertiary": "#002016", "primary": "#002016", "secondary": "#845400", "primary-fixed": "#c3ecd8", "on-secondary": "#ffffff", "outline": "#717974", "on-primary-fixed": "#002116", "outline-variant": "#c1c8c3", "on-error-container": "#93000a", "surface-container-low": "#e6f8ec", "on-secondary-container": "#714800", "tertiary-fixed": "#b9eed6", "surface-container-lowest": "#ffffff", "tertiary-container": "#003728", "surface-container": "#e1f2e6", "on-tertiary": "#ffffff", "error-container": "#ffdad6", "primary-fixed-dim": "#a7cfbd", "on-tertiary-fixed-variant": "#1c4f3e", "surface-bright": "#ecfef1", "secondary-fixed": "#ffddb6", "error": "#ba1a1a", "on-error": "#ffffff", "inverse-surface": "#25342c", "primary-container": "#103629", "surface-container-high": "#dbece0", "on-background": "#101f17", "on-primary": "#ffffff", "surface": "#ecfef1", "secondary-container": "#ffb54d", "on-tertiary-fixed": "#002116" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "space-2xl": "3rem", "margin-mobile": "1rem", "space-md": "1rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "space-xs": "0.25rem", "margin": "2rem", "margin-desktop": "3rem", "gutter-sm": "1rem", "gutter-lg": "2rem", "gutter": "1.5rem", "space-xl": "2rem" }, fontFamily: { "body-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "display-hero": ["Noto Serif"], "display-hero-mobile": ["Noto Serif"], "label-md": ["Plus Jakarta Sans"], "label-caps": ["Plus Jakarta Sans"], "headline-sm": ["Noto Serif"], "headline-lg-mobile": ["Noto Serif"], "headline-md": ["Noto Serif"], "headline-lg": ["Noto Serif"], "label-lg": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"] }, fontSize: { "body-md": ["1rem", { "lineHeight": "1.5rem", "fontWeight": "400" }], "body-sm": ["0.875rem", { "lineHeight": "1.25rem", "fontWeight": "400" }], "title-md": ["1.125rem", { "lineHeight": "1.6rem", "fontWeight": "600" }], "display-hero": ["3.5rem", { "lineHeight": "4.25rem", "letterSpacing": "-0.02em", "fontWeight": "700" }], "display-hero-mobile": ["2.25rem", { "lineHeight": "2.85rem", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-md": ["0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.02em", "fontWeight": "600" }], "label-caps": ["0.6875rem", { "lineHeight": "0.875rem", "letterSpacing": "0.06em", "fontWeight": "700" }], "headline-sm": ["1.25rem", { "lineHeight": "1.75rem", "fontWeight": "600" }], "headline-lg-mobile": ["1.75rem", { "lineHeight": "2.25rem", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-md": ["1.5rem", { "lineHeight": "2rem", "fontWeight": "600" }], "headline-lg": ["2.25rem", { "lineHeight": "2.75rem", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-lg": ["0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-lg": ["1.125rem", { "lineHeight": "1.75rem", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased selection:bg-secondary-container selection:text-on-secondary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm group text-left" data-path="beranda" href="#"><div class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center text-secondary-container shadow-[0_2px_8px_-2px_rgba(16,54,41,0.06)]"><span class="material-symbols-outlined text-[24px]">temple_hindu</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none group-hover:text-primary-container transition-colors">AtjehTrail</span><span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mt-space-xs">Explore Aceh, Discover Its Hidden Treasures</span></div></a></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary font-bold rounded-lg shadow-sm"><a class="px-space-md py-space-sm rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="beranda" href="#">Beranda</a><a aria-current="page" class="px-space-md py-space-sm transition-all bg-primary-container text-on-primary font-bold rounded-lg shadow-sm" data-path="jelajah" href="#">Jelajah</a><a class="px-space-md py-space-sm rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="cari" href="#">Cari</a><a class="px-space-md py-space-sm rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="paket-tour" href="#">Paket Tour</a><a class="px-space-md py-space-sm rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="riwayat-pesanan" href="#">Riwayat Pesanan</a><a class="px-space-md py-space-sm rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="tentang-kami" href="#">Tentang Kami</a></nav><div class="flex items-center gap-space-sm"><div class="hidden md:flex items-center gap-space-xs bg-surface-container-low px-space-sm py-space-xs rounded-lg"><button class="flex items-center gap-space-xs px-space-xs py-space-xs text-on-surface-variant hover:text-on-surface font-label-md text-label-md" type="button"><span class="material-symbols-outlined text-[16px]">payments</span><span class="font-semibold text-primary">IDR</span></button><span class="text-outline-variant font-body-sm text-body-sm">|</span><button class="flex items-center gap-space-xs px-space-xs py-space-xs text-on-surface-variant hover:text-on-surface font-label-md text-label-md" type="button"><span class="material-symbols-outlined text-[16px]">translate</span><span class="font-semibold text-primary">ID</span></button></div><a aria-label="Favorit Destinasi" class="relative p-space-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors" data-path="favorit" href="#"><span class="material-symbols-outlined text-[22px]">favorite</span><span class="absolute top-1.5 right-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-secondary text-[10px] font-bold text-on-secondary font-label-caps">3</span></a><button aria-label="Notifikasi" class="relative p-space-sm rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2 right-2 h-2 w-2 rounded-full bg-error"></span></button><div class="h-6 w-px bg-surface-container-high hidden sm:block"></div><a class="hidden sm:inline-flex items-center justify-center px-space-md py-space-sm rounded-lg font-label-lg text-label-lg font-semibold bg-surface-container-high text-primary hover:bg-surface-container-highest hover:text-on-surface transition-colors shadow-sm" data-path="masuk" href="#">Akun Demo</a><div class="relative group"><button class="flex items-center gap-space-xs p-space-xs rounded-xl hover:bg-surface-container-low transition-colors" type="button"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><div class="hidden lg:flex flex-col text-left pl-space-xs"><span class="font-label-md text-label-md text-on-surface leading-tight font-semibold">Cut Nyak Farhan</span><span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Wisatawan Aceh</span></div><span class="material-symbols-outlined text-on-surface-variant text-[18px] hidden lg:block group-hover:rotate-180 transition-transform">expand_more</span></button><div class="absolute right-0 top-full pt-space-xs w-60 hidden group-hover:block focus-within:block z-50"><div class="bg-surface-container-lowest rounded-xl shadow-[0_12px_24px_-4px_rgba(16,54,41,0.10),0_4px_8px_-2px_rgba(16,54,41,0.05)] p-space-xs"><div class="px-space-md py-space-sm border-b border-surface-container mb-space-xs"><p class="font-label-lg text-label-lg font-semibold text-on-surface">Farhan Al-Kautsar</p><p class="font-label-md text-label-md text-on-surface-variant">farhan.aceh@trail.id</p></div><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="profil-saya" href="#"><span class="material-symbols-outlined text-[18px]">badge</span>Profil Saya</a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="riwayat-pesanan" href="#"><span class="material-symbols-outlined text-[18px]">receipt_long</span>Riwayat Pesanan</a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="usul-destinasi" href="#"><span class="material-symbols-outlined text-[18px]">add_location_alt</span>Usul Destinasi Baru</a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="kemitraan-pemandu" href="#"><span class="material-symbols-outlined text-[18px]">handshake</span>Kemitraan Mitra &amp; Guide</a><div class="my-space-xs border-t border-surface-container"></div><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg font-label-md text-label-md text-error hover:bg-error-container hover:text-on-error-container transition-colors" data-path="keluar" href="#"><span class="material-symbols-outlined text-[18px]">logout</span>Keluar Sesi</a></div></div></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Curated Banner & Search Console -->
+<section class="w-full bg-surface-container-low py-space-xl relative overflow-hidden">
+<div class="absolute -right-20 -bottom-24 w-96 h-96 rounded-full bg-secondary-container/10 blur-3xl pointer-events-none"></div>
+<div class="absolute left-1/4 -top-12 w-64 h-64 rounded-full bg-primary-fixed/20 blur-2xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-margin relative z-10"><div class="mb-space-md"><button onclick="if(document.referrer){window.history.back();}else{window.location.href='index.html';}" class="inline-flex items-center gap-space-xs text-primary hover:text-secondary font-label-lg text-label-lg font-semibold transition-colors mb-space-md"><span class="material-symbols-outlined text-[18px]">arrow_back</span><span>Kembali</span></button></div>
+<!-- Breadcrumb & Subheading -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors" href="#">Beranda</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-primary font-semibold">Jelajah &amp; Katalog Wisata</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-secondary font-semibold">Banda Aceh &amp; Aceh Besar</span>
+</div>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container-lowest text-primary shadow-sm font-label-caps text-label-caps uppercase tracking-wider">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+          Musim Liburan &amp; Cuaca Tropis Cerah
+        </div>
+</div>
+<!-- Hero Search Bar Widget -->
+<div class="bg-surface-container-lowest p-space-sm md:p-space-md rounded-xl shadow-[0_12px_24px_-4px_rgba(16,54,41,0.08),0_4px_8px_-2px_rgba(16,54,41,0.04)] mb-space-lg">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-sm items-center">
+<!-- Text Input -->
+<div class="md:col-span-5 flex items-center gap-space-sm px-space-md py-space-sm bg-surface-container-low rounded-lg focus-within:bg-surface-container-lowest focus-within:shadow-sm transition-all">
+<span class="material-symbols-outlined text-primary text-[22px]">search</span>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Kata Kunci / Objek Wisata</span>
+<input class="bg-transparent border-0 outline-none font-title-md text-title-md text-on-surface placeholder:text-outline-variant w-full" id="searchInput" placeholder="Ketik destinasi, pantai, museum, atau kuliner..." type="text" value="Masjid Raya, Pantai, Air Terjun">
+</div>
+<button class="text-outline hover:text-on-surface p-space-xs" id="clearSearchBtn" title="Hapus teks">
+<span class="material-symbols-outlined text-[18px]">cancel</span>
+</button>
+</div>
+<!-- Quick Category Pick -->
+<div class="md:col-span-3 flex items-center gap-space-sm px-space-md py-space-sm bg-surface-container-low rounded-lg">
+<span class="material-symbols-outlined text-secondary text-[22px]">location_on</span>
+<div class="flex flex-col flex-1">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Wilayah Eksplorasi</span>
+<select class="bg-transparent border-0 outline-none font-title-md text-title-md text-on-surface cursor-pointer" id="regionSelect">
+<option value="all">Semua Wilayah (21)</option>
+<option selected="" value="banda-aceh">Banda Aceh (12)</option>
+<option value="aceh-besar">Aceh Besar (9)</option>
+</select>
+</div>
+</div>
+<!-- Quick Date / Season -->
+<div class="md:col-span-2 flex items-center gap-space-sm px-space-md py-space-sm bg-surface-container-low rounded-lg">
+<span class="material-symbols-outlined text-primary-container text-[22px]">event_available</span>
+<div class="flex flex-col flex-1">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Waktu Kunjungan</span>
+<span class="font-title-md text-title-md text-on-surface truncate">Hari Ini &amp; Esok</span>
+</div>
+</div>
+<!-- Search Action -->
+<div class="md:col-span-2">
+<button class="w-full h-full py-space-md px-space-lg rounded-lg bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary font-title-md text-title-md font-bold transition-all shadow-md flex items-center justify-center gap-space-xs" id="mainSearchBtn">
+<span class="material-symbols-outlined text-[20px]">explore</span>
+<span>Cari Trail</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Quick Active Filter Pills & Dynamic Results Count Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-md pt-space-xs">
+<div class="flex flex-wrap items-center gap-space-xs" id="activeFilterPills">
+<span class="font-label-md text-label-md text-on-surface-variant mr-space-xs">Filter Aktif:</span>
+<span class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-primary-container text-on-primary font-label-md text-label-md shadow-sm filter-pill" data-type="region" data-val="Banda Aceh">
+            Wilayah: Banda Aceh
+            <button class="material-symbols-outlined text-[16px] hover:text-secondary-fixed remove-pill">close</button>
+</span>
+<span class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-primary-container text-on-primary font-label-md text-label-md shadow-sm filter-pill" data-type="region" data-val="Aceh Besar">
+            Wilayah: Aceh Besar
+            <button class="material-symbols-outlined text-[16px] hover:text-secondary-fixed remove-pill">close</button>
+</span>
+<span class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container-highest text-primary font-label-md text-label-md filter-pill" data-type="category" data-val="Wisata Alam">
+            Wisata Alam
+            <button class="material-symbols-outlined text-[16px] hover:text-error remove-pill">close</button>
+</span>
+<span class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container-highest text-primary font-label-md text-label-md filter-pill" data-type="verified" data-val="Disbudpar">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified</span>
+            Terverifikasi Resmi
+            <button class="material-symbols-outlined text-[16px] hover:text-error remove-pill">close</button>
+</span>
+<button class="font-label-md text-label-md text-secondary hover:underline ml-space-xs font-semibold" id="resetAllFilters">
+            Reset Semua Filter
+          </button>
+</div>
+<!-- Controls: View switcher & Sorting -->
+<div class="flex items-center gap-space-md ml-auto">
+<!-- Sort Dropdown -->
+<div class="flex items-center gap-space-xs bg-surface-container-lowest px-space-sm py-space-xs rounded-lg shadow-sm">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Urutkan:</span>
+<select class="bg-transparent border-0 outline-none font-label-lg text-label-lg text-primary font-semibold cursor-pointer" id="sortSelect">
+<option value="popular">Paling Populer</option>
+<option value="rating">Rating Tertinggi</option>
+<option value="price_asc">Harga Terendah</option>
+<option value="distance">Terdekat dari Pusat Kota</option>
+</select>
+</div>
+<!-- View Mode Toggles -->
+<div class="flex items-center bg-surface-container-lowest p-1 rounded-lg shadow-sm" id="viewModeGroup">
+<button class="p-space-xs rounded-md bg-primary-container text-on-primary shadow-xs transition-colors" id="viewGridBtn" title="Grid Tampilan Galeri">
+<span class="material-symbols-outlined text-[20px] block">grid_view</span>
+</button>
+<button class="p-space-xs rounded-md text-on-surface-variant hover:text-on-surface transition-colors" id="viewListBtn" title="List Tampilan Ringkas">
+<span class="material-symbols-outlined text-[20px] block">view_list</span>
+</button>
+<button class="p-space-xs rounded-md text-on-surface-variant hover:text-on-surface transition-colors" id="viewMapBtn" title="Peta Interaktif Lokasi">
+<span class="material-symbols-outlined text-[20px] block">map</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Body: Responsive Filter Sidebar + Catalog Results Container -->
+<section class="max-w-7xl mx-auto px-margin py-space-2xl w-full">
+<!-- Result Header String -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between pb-space-lg gap-space-sm">
+<div class="flex items-baseline gap-space-sm">
+<h1 class="font-headline-md text-headline-md text-primary font-bold">Katalog Destinasi &amp; Pengalaman</h1>
+<span class="font-label-lg text-label-lg text-on-surface-variant" id="countDisplay">Menampilkan 8 dari 21 Wisata Pilihan</span>
+</div>
+<!-- Mobile Filter Trigger -->
+<button class="lg:hidden inline-flex items-center justify-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container-highest text-primary font-label-lg text-label-lg font-semibold shadow-sm" id="mobileFilterToggleBtn">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+<span>Filter Lengkap (4 Aktif)</span>
+</button>
+</div>
+<!-- Layout Grid: 12 Columns -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- SIDEBAR FILTERS (4 Cols on Desktop) -->
+<aside class="lg:col-span-4 flex flex-col gap-space-lg bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_2px_8px_-2px_rgba(16,54,41,0.06),0_1px_3px_-1px_rgba(16,54,41,0.04)] sticky top-24" id="filterSidebar">
+<!-- Sidebar Title & Clean Actions -->
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs text-primary font-bold font-title-md text-title-md">
+<span class="material-symbols-outlined text-[22px]">tune</span>
+<span>Filter Penelusuran</span>
+</div>
+<button class="font-label-md text-label-md text-secondary hover:text-on-secondary-container font-semibold transition-colors" id="resetSidebarBtn">
+            Reset
+          </button>
+</div>
+<!-- Facet 1: Wilayah Teritorial -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider font-bold">Wilayah Administrasi</span>
+<div class="flex flex-col gap-space-xs">
+<label class="flex items-center justify-between p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<div class="flex items-center gap-space-sm">
+<input checked="" class="w-4 h-4 rounded text-primary focus:ring-secondary-container accent-primary-container" data-filter="region" type="checkbox" value="banda-aceh">
+<span class="font-body-md text-body-md text-on-surface">Kota Banda Aceh</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant px-space-xs py-0.5 rounded bg-surface-container">12</span>
+</label>
+<label class="flex items-center justify-between p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<div class="flex items-center gap-space-sm">
+<input checked="" class="w-4 h-4 rounded text-primary focus:ring-secondary-container accent-primary-container" data-filter="region" type="checkbox" value="aceh-besar">
+<span class="font-body-md text-body-md text-on-surface">Kabupaten Aceh Besar</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant px-space-xs py-0.5 rounded bg-surface-container">9</span>
+</label>
+</div>
+</div>
+<!-- Facet 2: Kategori Wisata -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider font-bold">Kategori Pengalaman</span>
+<div class="flex flex-col gap-space-xs">
+<label class="flex items-center justify-between p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<div class="flex items-center gap-space-sm">
+<input checked="" class="w-4 h-4 rounded text-primary focus:ring-secondary-container accent-primary-container" data-filter="category" type="checkbox" value="alam">
+<span class="font-body-md text-body-md text-on-surface">Wisata Alam &amp; Pantai</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant px-space-xs py-0.5 rounded bg-surface-container">7</span>
+</label>
+<label class="flex items-center justify-between p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<div class="flex items-center gap-space-sm">
+<input checked="" class="w-4 h-4 rounded text-primary focus:ring-secondary-container accent-primary-container" data-filter="category" type="checkbox" value="sejarah">
+<span class="font-body-md text-body-md text-on-surface">Sejarah &amp; Heritage Aceh</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant px-space-xs py-0.5 rounded bg-surface-container">6</span>
+</label>
+<label class="flex items-center justify-between p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<div class="flex items-center gap-space-sm">
+<input class="w-4 h-4 rounded text-primary focus:ring-secondary-container accent-primary-container" data-filter="category" type="checkbox" value="religi">
+<span class="font-body-md text-body-md text-on-surface">Wisata Religi &amp; Ibadah</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant px-space-xs py-0.5 rounded bg-surface-container">3</span>
+</label>
+<label class="flex items-center justify-between p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<div class="flex items-center gap-space-sm">
+<input class="w-4 h-4 rounded text-primary focus:ring-secondary-container accent-primary-container" data-filter="category" type="checkbox" value="edukasi">
+<span class="font-body-md text-body-md text-on-surface">Edukasi Bencana &amp; Mitigasi</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant px-space-xs py-0.5 rounded bg-surface-container">2</span>
+</label>
+<label class="flex items-center justify-between p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<div class="flex items-center gap-space-sm">
+<input class="w-4 h-4 rounded text-primary focus:ring-secondary-container accent-primary-container" data-filter="category" type="checkbox" value="kuliner">
+<span class="font-body-md text-body-md text-on-surface">Desa Wisata &amp; Kuliner Lokal</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant px-space-xs py-0.5 rounded bg-surface-container">3</span>
+</label>
+</div>
+</div>
+<!-- Facet 3: Rentang Harga Tiket / Paket -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider font-bold">Biaya Retribusi / Tiket</span>
+<span class="font-label-md text-label-md text-primary font-bold" id="priceLabel">Semua Rentang</span>
+</div>
+<div class="space-y-space-xs">
+<label class="flex items-center gap-space-sm p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<input checked="" class="w-4 h-4 text-primary focus:ring-secondary-container accent-primary-container" name="price_range" type="radio" value="all">
+<span class="font-body-md text-body-md text-on-surface">Semua Biaya Masuk</span>
+</label>
+<label class="flex items-center gap-space-sm p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<input class="w-4 h-4 text-primary focus:ring-secondary-container accent-primary-container" name="price_range" type="radio" value="free">
+<span class="font-body-md text-body-md text-on-surface">Gratis (Tanpa Tiket)</span>
+</label>
+<label class="flex items-center gap-space-sm p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<input class="w-4 h-4 text-primary focus:ring-secondary-container accent-primary-container" name="price_range" type="radio" value="under_20k">
+<span class="font-body-md text-body-md text-on-surface">≤ Rp20.000 / orang</span>
+</label>
+<label class="flex items-center gap-space-sm p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<input class="w-4 h-4 text-primary focus:ring-secondary-container accent-primary-container" name="price_range" type="radio" value="tour_pkg">
+<span class="font-body-md text-body-md text-on-surface">Paket Wisata &amp; Guide (&gt; Rp250.000)</span>
+</label>
+</div>
+</div>
+<!-- Facet 4: Fasilitas Syariah & Kenyamanan -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider font-bold">Fasilitas &amp; Layanan</span>
+<div class="grid grid-cols-1 gap-space-xs">
+<label class="flex items-center gap-space-sm p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<input class="w-4 h-4 rounded text-primary focus:ring-secondary-container accent-primary-container" data-facility="musholla" type="checkbox">
+<span class="font-body-sm text-body-sm text-on-surface">Tempat Wudhu &amp; Musholla Bersih</span>
+</label>
+<label class="flex items-center gap-space-sm p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<input class="w-4 h-4 rounded text-primary focus:ring-secondary-container accent-primary-container" data-facility="parking" type="checkbox">
+<span class="font-body-sm text-body-sm text-on-surface">Area Parkir Roda Empat Luas</span>
+</label>
+<label class="flex items-center gap-space-sm p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<input class="w-4 h-4 rounded text-primary focus:ring-secondary-container accent-primary-container" data-facility="family" type="checkbox">
+<span class="font-body-sm text-body-sm text-on-surface">Ramah Anak &amp; Lansia (Akses Mudah)</span>
+</label>
+<label class="flex items-center gap-space-sm p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<input class="w-4 h-4 rounded text-primary focus:ring-secondary-container accent-primary-container" data-facility="culinary" type="checkbox">
+<span class="font-body-sm text-body-sm text-on-surface">Warung Kuliner Khas Aceh</span>
+</label>
+<label class="flex items-center gap-space-sm p-space-xs rounded-lg hover:bg-surface-container-low cursor-pointer">
+<input class="w-4 h-4 rounded text-primary focus:ring-secondary-container accent-primary-container" data-facility="photo" type="checkbox">
+<span class="font-body-sm text-body-sm text-on-surface">Spot Fotografi Ikonik</span>
+</label>
+</div>
+</div>
+<!-- Facet 5: Tingkat Kesulitan -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider font-bold">Aksesibilitas / Medan</span>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-sm py-space-xs rounded-lg bg-surface-container-high text-primary font-label-md text-label-md font-semibold hover:bg-primary hover:text-on-primary transition-colors">Santai / Datar</button>
+<button class="px-space-sm py-space-xs rounded-lg bg-surface-container-low text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high transition-colors">Sedang</button>
+<button class="px-space-sm py-space-xs rounded-lg bg-surface-container-low text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high transition-colors">Trekking / Naik</button>
+</div>
+</div>
+<!-- Facet 6: Badges & Kurasi -->
+<div class="flex flex-col gap-space-sm pt-space-xs bg-surface-container-low p-space-md rounded-xl">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-wider font-bold">Kurasi Khusus AtjehTrail</span>
+<label class="flex items-start gap-space-sm cursor-pointer">
+<input checked="" class="w-4 h-4 mt-0.5 rounded text-primary focus:ring-secondary-container accent-primary-container" id="filterDisbudpar" type="checkbox">
+<div>
+<span class="font-label-lg text-label-lg font-semibold text-on-surface block">Verifikasi Disbudpar Aceh</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Standar kelayakan, keamanan, dan kepatuhan syariah resmi.</span>
+</div>
+</label>
+<label class="flex items-start gap-space-sm cursor-pointer mt-space-xs">
+<input class="w-4 h-4 mt-0.5 rounded text-primary focus:ring-secondary-container accent-primary-container" id="filterHiddenGem" type="checkbox">
+<div>
+<span class="font-label-lg text-label-lg font-semibold text-secondary block">Permata Tersembunyi (Hidden Gem)</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Spot hening dan belum padat wisatawan massal.</span>
+</div>
+</label>
+</div>
+<!-- Guide Callout Banner in Sidebar -->
+<div class="bg-primary text-on-primary p-space-md rounded-xl shadow-md flex flex-col gap-space-sm mt-space-xs">
+<div class="flex items-center gap-space-xs text-secondary-container">
+<span class="material-symbols-outlined text-[20px]">support_agent</span>
+<span class="font-label-caps text-label-caps uppercase font-bold tracking-wider">Layanan Concierge</span>
+</div>
+<p class="font-body-sm text-body-sm text-inverse-on-surface">Butuh pemandu lokal bersertifikat HPI Aceh untuk rombongan keluarga atau ziarah budaya?</p>
+<button class="w-full py-space-xs px-space-sm rounded bg-secondary text-on-secondary font-label-lg text-label-lg font-bold hover:bg-secondary-container hover:text-on-secondary-fixed transition-all text-center">
+            Konsultasi Rute Gratis
+          </button>
+</div>
+</aside>
+<!-- RESULTS AREA (8 Cols on Desktop) -->
+<main class="lg:col-span-8 flex flex-col gap-space-xl">
+<!-- MAP VIEW CONTAINER (Hidden by default, toggled via Map View button) -->
+<div class="hidden w-full flex-col gap-space-md bg-surface-container-lowest p-space-md rounded-xl shadow-sm" id="mapViewContainer">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-primary font-bold font-title-md text-title-md">
+<span class="material-symbols-outlined text-secondary text-[22px]">pin_drop</span>
+<span>Peta Sebaran Destinasi Aceh</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">Klik pin untuk menyorot detail tiket</span>
+</div>
+<!-- Real map element using data-location pattern -->
+<div class="w-full h-80 rounded-xl bg-surface-container-high relative overflow-hidden flex items-end p-space-md shadow-inner" data-location="Banda Aceh, Aceh, Indonesia" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBVEXpRqfzMdDwejd3h007BcFFF1gQClvQF9nEwCxGYlvqHDnSsU6nGXkbwBSy3o5AwMlyNJ73Wja_KnVH_ir4HzHBSGUcrAu3gQDkrp0PWqxPJEPK1Dt0BjFBsJ1wHQuL_DyMsxWRf4vMcAat9VlEP4rFSnMw2uZ3lD8EpWSFQv7say4qbhEuULOvLL6I8o0NtAMgUN9qZOIZnUi0cqA_Mcv7OTbuNb7dITrjKqxo1')">
+<div class="bg-surface-container-lowest/90 backdrop-blur-md p-space-sm rounded-lg max-w-sm shadow-md">
+<span class="font-label-caps text-label-caps text-secondary uppercase font-bold block">Pusat Interaktif</span>
+<p class="font-label-lg text-label-lg font-bold text-primary">Titik Nol Kilometer &amp; Kawasan Meuraxa</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Akses jalur tol Sibanceh &amp; pesisir pantai barat-selatan terpantau lancar.</p>
+</div>
+</div>
+</div>
+<!-- MAIN CARD CATALOG GRID -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg w-full" id="catalogGrid">
+<!-- Card 1: Rumoh Aceh & Museum Negeri -->
+<article class="destination-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_8px_-2px_rgba(16,54,41,0.06),0_1px_3px_-1px_rgba(16,54,41,0.04)] hover:shadow-[0_12px_24px_-4px_rgba(16,54,41,0.10)] transition-all flex flex-col" data-category="sejarah" data-price="10000" data-rating="4.8" data-region="banda-aceh">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Traditional Acehnese wooden stilt house Rumoh Aceh surrounded by lush tropical frangipani trees and historical cannon artifacts under clear morning sunlight with rich dark wooden textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-LaKsm37PJjtiV2qHRRhhVDkRzwZZVLt0VH169rsDK_GuUlCLaoJzttxn1_3L5NhGLLEz7vhLesjAfhYwkVHMFnCDgwnK6Qz7lco744asDCMjdQok81zd0jRbu05dyIPIRXuxyuYbLqVt4wYoI_YgkqCA478JUdnaYsw9VFopcn6bvLZZvMlTcgm0B0rxlG1fGxjLWJlLXCRdNqHCXKHGpNXliW9bxSiXkYLt_KBR">
+<!-- Status Badges Overlaid -->
+<div class="absolute top-space-sm left-space-sm flex flex-col gap-1 items-start">
+<span class="px-space-xs py-0.5 rounded bg-primary-container text-secondary-container font-label-caps text-label-caps uppercase font-bold tracking-wider shadow-sm">Sejarah &amp; Heritage</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-caps text-label-caps font-semibold shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-secondary">verified</span> Terverifikasi Disbudpar
+                </span>
+</div>
+<button class="fav-btn absolute top-space-sm right-space-sm w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface-variant hover:text-error flex items-center justify-center transition-colors shadow-sm" title="Simpan ke Favorit">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+<div class="absolute bottom-space-sm right-space-sm bg-primary/80 backdrop-blur-md px-space-xs py-0.5 rounded text-on-primary font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 08.30 - 16.30 WIB
+              </div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between gap-space-xs mb-1">
+<span class="font-label-caps text-label-caps uppercase text-secondary font-bold">Banda Aceh • Baiturrahman</span>
+<div class="flex items-center gap-1 text-primary font-bold font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-[16px] text-secondary fill-1">star</span>
+<span>4.8</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-normal">(340)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold group-hover:text-secondary transition-colors line-clamp-1">Rumoh Aceh &amp; Museum Negeri</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">Kompleks rumah tradisional panggung khas Aceh tempo doeloe, Lonceng Cakra Donya dari Dinasti Ming, serta artefak Kesultanan Iskandar Muda.</p>
+</div>
+<div class="pt-space-sm flex items-center justify-between mt-auto">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Tiket Masuk / Orang</span>
+<span class="font-title-md text-title-md text-primary font-bold">Rp10.000</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="open-detail-btn px-space-md py-space-xs rounded bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-lg text-label-lg font-semibold transition-colors" data-id="1">Detail</button>
+<button class="px-space-md py-space-xs rounded bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary font-label-lg text-label-lg font-bold transition-all shadow-sm">Pesan</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 2: Pantai Lhok Mee Pasir Putih -->
+<article class="destination-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_8px_-2px_rgba(16,54,41,0.06),0_1px_3px_-1px_rgba(16,54,41,0.04)] hover:shadow-[0_12px_24px_-4px_rgba(16,54,41,0.10)] transition-all flex flex-col" data-category="alam" data-price="5000" data-rating="4.7" data-region="aceh-besar">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="White sandy beach of Pantai Lhok Mee in Aceh Besar featuring iconic mangrove trees growing directly out of crystal turquoise sea water with dramatic emerald hills in the backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqfA-NRLvoS43_5i0cZ2raW_WeQKs0JaVtPOZxJ3Ee6lUGpraL2x5K1QOQhXTt85wOn4lM-hWz_B-P_weHoYZcCJrLk_jibDTvp4lOiDNgXxzFg7rHZ0YbuLcUjyMiVlG06B4065Udzm4dOkX9WdYo2hpGUKzN0nhwn5MQv3EOv4ZMe9ILLgSdL4RvmEYN6cg3GTJ_N0oNmcNynAMUVZ-5_JuEq-NdvA3gQYkWmCoQ">
+<div class="absolute top-space-sm left-space-sm flex flex-col gap-1 items-start">
+<span class="px-space-xs py-0.5 rounded bg-secondary text-on-secondary font-label-caps text-label-caps uppercase font-bold tracking-wider shadow-sm">Permata Tersembunyi</span>
+<span class="px-space-xs py-0.5 rounded bg-primary-container text-on-primary font-label-caps text-label-caps font-semibold shadow-sm">Wisata Alam</span>
+</div>
+<button class="fav-btn absolute top-space-sm right-space-sm w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface-variant hover:text-error flex items-center justify-center transition-colors shadow-sm" title="Simpan ke Favorit">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+<div class="absolute bottom-space-sm right-space-sm bg-primary/80 backdrop-blur-md px-space-xs py-0.5 rounded text-on-primary font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">waves</span> Spot Snorkeling &amp; Sunset
+              </div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between gap-space-xs mb-1">
+<span class="font-label-caps text-label-caps uppercase text-secondary font-bold">Aceh Besar • Mesjid Raya</span>
+<div class="flex items-center gap-1 text-primary font-bold font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-[16px] text-secondary fill-1">star</span>
+<span>4.7</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-normal">(512)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold group-hover:text-secondary transition-colors line-clamp-1">Pantai Lhok Mee Pasir Putih</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">Dikenal dengan sebutan pantai pohon geurutee/bakau terapung di dalam air laut jernih. Dilengkapi pondok santai tepi tebing dan kelapa muda.</p>
+</div>
+<div class="pt-space-sm flex items-center justify-between mt-auto">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Retribusi Gampong</span>
+<span class="font-title-md text-title-md text-primary font-bold">Rp5.000</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="open-detail-btn px-space-md py-space-xs rounded bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-lg text-label-lg font-semibold transition-colors" data-id="2">Detail</button>
+<button class="px-space-md py-space-xs rounded bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary font-label-lg text-label-lg font-bold transition-all shadow-sm">Pesan</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 3: Kerkhof Peucut -->
+<article class="destination-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_8px_-2px_rgba(16,54,41,0.06),0_1px_3px_-1px_rgba(16,54,41,0.04)] hover:shadow-[0_12px_24px_-4px_rgba(16,54,41,0.10)] transition-all flex flex-col" data-category="sejarah" data-price="0" data-rating="4.6" data-region="banda-aceh">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Entrance arch of Kerkhof Peucut memorial graveyard in Banda Aceh with ancient Dutch and Javanese inscriptions surrounded by towering heritage banyan trees and peaceful emerald lawns" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANvkJi4tYUSqc0jgs7hFy4f-4Z-hqNELPsig9h4rdogHcEgC06OZ9wWKaixupde_fm6bKbpSipjbxtuti6xX3i6CKvRmxQsNxjfM2Dp2vlxAjgGplgkfQXMt3OFF4lkNqsQlH4NyfcoNcKa03AgiOyuS9TV4b4IfWapWnpoCNd1LrhgppIOhGfoMTMgKyWYETLTF_847XhPTTG52rZBLRo95n8Imjiz0jhvkxfEdmm">
+<div class="absolute top-space-sm left-space-sm flex flex-col gap-1 items-start">
+<span class="px-space-xs py-0.5 rounded bg-primary-container text-secondary-container font-label-caps text-label-caps uppercase font-bold tracking-wider shadow-sm">Sejarah Nasional</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-caps text-label-caps font-semibold shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-secondary">verified</span> Terverifikasi Disbudpar
+                </span>
+</div>
+<button class="fav-btn absolute top-space-sm right-space-sm w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface-variant hover:text-error flex items-center justify-center transition-colors shadow-sm" title="Simpan ke Favorit">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+<div class="absolute bottom-space-sm right-space-sm bg-primary/80 backdrop-blur-md px-space-xs py-0.5 rounded text-on-primary font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">menu_book</span> Arsip Sejarah Perang
+              </div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between gap-space-xs mb-1">
+<span class="font-label-caps text-label-caps uppercase text-secondary font-bold">Banda Aceh • Baiturrahman</span>
+<div class="flex items-center gap-1 text-primary font-bold font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-[16px] text-secondary fill-1">star</span>
+<span>4.6</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-normal">(180)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold group-hover:text-secondary transition-colors line-clamp-1">Kerkhof Peucut (Makam Bersejarah)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">Saksi bisu heroisme perjuangan rakyat Aceh. Kompleks pemakaman militer Belanda terbesar kedua di dunia di luar Belanda dengan prasasti gerbang megah.</p>
+</div>
+<div class="pt-space-sm flex items-center justify-between mt-auto">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Biaya Masuk</span>
+<span class="font-title-md text-title-md text-secondary font-bold">Gratis (Infaq Sukarela)</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="open-detail-btn px-space-md py-space-xs rounded bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-lg text-label-lg font-semibold transition-colors" data-id="3">Detail</button>
+<button class="px-space-md py-space-xs rounded bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary font-label-lg text-label-lg font-bold transition-all shadow-sm">Pesan</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 4: Air Terjun Seuhom -->
+<article class="destination-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_8px_-2px_rgba(16,54,41,0.06),0_1px_3px_-1px_rgba(16,54,41,0.04)] hover:shadow-[0_12px_24px_-4px_rgba(16,54,41,0.10)] transition-all flex flex-col" data-category="alam" data-price="10000" data-rating="4.7" data-region="aceh-besar">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Majestic Seuhom Waterfall cascading over dark mossy granite rocks into a crystal clear emerald lagoon surrounded by deep rainforest jungle in Lhoong Aceh Besar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoh642sT9URmVuk58rB9v3FUC9QvB-u8X9NJjAfcvjjoXPh6ynwXdy7Q8MeYfbItW7600r_kB9eWYq5TpoP5is98nPk7a8RuSYdSWbQfE9F7bIokcrJfHh1-bPTJo4ipjkzAgEYPRvv1CpKC8MMAjl8oPrfA_M2nWL5_I0kNr3yo4jvLdVXeE7Ilkk6wIsutzoDSiKw4DVb30jwzNUVWJqXZd6I-WHDzvhALWwaH2l">
+<div class="absolute top-space-sm left-space-sm flex flex-col gap-1 items-start">
+<span class="px-space-xs py-0.5 rounded bg-primary-container text-on-primary font-label-caps text-label-caps font-semibold shadow-sm">Wisata Alam &amp; Ekowisata</span>
+</div>
+<button class="fav-btn absolute top-space-sm right-space-sm w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface-variant hover:text-error flex items-center justify-center transition-colors shadow-sm" title="Simpan ke Favorit">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+<div class="absolute bottom-space-sm right-space-sm bg-primary/80 backdrop-blur-md px-space-xs py-0.5 rounded text-on-primary font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">spa</span> Alami &amp; Sejuk
+              </div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between gap-space-xs mb-1">
+<span class="font-label-caps text-label-caps uppercase text-secondary font-bold">Aceh Besar • Lhoong</span>
+<div class="flex items-center gap-1 text-primary font-bold font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-[16px] text-secondary fill-1">star</span>
+<span>4.7</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-normal">(220)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold group-hover:text-secondary transition-colors line-clamp-1">Air Terjun Seuhom</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">Air terjun bertingkat setinggi 20 meter di tengah rimbunnya perkebunan durian Lhoong. Air pegunungan segar nan jernih dengan kolam pemandian alami.</p>
+</div>
+<div class="pt-space-sm flex items-center justify-between mt-auto">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Biaya Tiket &amp; Parkir</span>
+<span class="font-title-md text-title-md text-primary font-bold">Rp10.000</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="open-detail-btn px-space-md py-space-xs rounded bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-lg text-label-lg font-semibold transition-colors" data-id="4">Detail</button>
+<button class="px-space-md py-space-xs rounded bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary font-label-lg text-label-lg font-bold transition-all shadow-sm">Pesan</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 5: Masjid Raya Baiturrahman -->
+<article class="destination-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_8px_-2px_rgba(16,54,41,0.06),0_1px_3px_-1px_rgba(16,54,41,0.04)] hover:shadow-[0_12px_24px_-4px_rgba(16,54,41,0.10)] transition-all flex flex-col" data-category="religi" data-price="0" data-rating="4.9" data-region="banda-aceh">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Grand Baiturrahman Mosque in Banda Aceh with gleaming white Mughal architecture, majestic black domes, illuminated electric umbrella shades, and reflecting marble pool in golden twilight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCW2sgUM_YC0XzLvPoVgRiAXHtjT3KH0e_eAbPmkDmx9X9GLTHn3E0M1WXNe0sv94cne5FVkLWatt5lpke8OTfmmga-kVRa_UuuQnh1H4OgED-7c7BZcGTWnFA7y0b2cpamSDsGAHtBo_KbgB09DYRQD_TCHw0APKN3ZEErozkRQfmzmYe_kzMGTQ8s5EcyU84nmdoXCVDUJy-rf05x_aUhh3xJXxDl3m4-a9bqsQyY">
+<div class="absolute top-space-sm left-space-sm flex flex-col gap-1 items-start">
+<span class="px-space-xs py-0.5 rounded bg-primary text-secondary-container font-label-caps text-label-caps uppercase font-bold tracking-wider shadow-sm">Ikon Utama Religi</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-caps text-label-caps font-semibold shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-secondary">verified</span> Terverifikasi Disbudpar
+                </span>
+</div>
+<button class="fav-btn absolute top-space-sm right-space-sm w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface-variant hover:text-error flex items-center justify-center transition-colors shadow-sm" title="Simpan ke Favorit">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+<div class="absolute bottom-space-sm right-space-sm bg-primary/80 backdrop-blur-md px-space-xs py-0.5 rounded text-on-primary font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">mosque</span> Buka 24 Jam Jamaah
+              </div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between gap-space-xs mb-1">
+<span class="font-label-caps text-label-caps uppercase text-secondary font-bold">Banda Aceh • Pusat Kota</span>
+<div class="flex items-center gap-1 text-primary font-bold font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-[16px] text-secondary fill-1">star</span>
+<span>4.9</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-normal">(1.890)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold group-hover:text-secondary transition-colors line-clamp-1">Masjid Raya Baiturrahman</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">Kemegahan 7 kubah hitam, 12 payung elektrik ala Madinah, lantai marmer Italia, dan saksi keajaiban saat tsunami 2004.</p>
+</div>
+<div class="pt-space-sm flex items-center justify-between mt-auto">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Biaya Masuk</span>
+<span class="font-title-md text-title-md text-secondary font-bold">Gratis</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="open-detail-btn px-space-md py-space-xs rounded bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-lg text-label-lg font-semibold transition-colors" data-id="5">Detail</button>
+<button class="px-space-md py-space-xs rounded bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary font-label-lg text-label-lg font-bold transition-all shadow-sm">Pesan</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 6: Benteng Indra Patra -->
+<article class="destination-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_8px_-2px_rgba(16,54,41,0.06),0_1px_3px_-1px_rgba(16,54,41,0.04)] hover:shadow-[0_12px_24px_-4px_rgba(16,54,41,0.10)] transition-all flex flex-col" data-category="sejarah" data-price="5000" data-rating="4.6" data-region="aceh-besar">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Ancient Indra Patra stone fortress along the coast of Ladong Aceh Besar overlooking the Malacca strait with weathered Hindu-Buddhist stone blocks and green coastal grass" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDh-xwW_u5j9BwCzZsGddytrFVooF3UMOqANP4-HrOMl8BiyiyfhNv6eh948w1RdTfiKm0KCKMeHoJgcT4nSbTBUC-K-gMOvFxzpwOXdmXQARwWVSODvArnBXjPw1MrM89R4ufDf_5rvq7AfUatxrJUXVH9kO8KyaAodkWF01ppGRattDdjpgiIVE7vbVPJwlKB022OcwvGmCG2wpLM-l4XyxccU18xVJYDAXrkXjGh">
+<div class="absolute top-space-sm left-space-sm flex flex-col gap-1 items-start">
+<span class="px-space-xs py-0.5 rounded bg-primary-container text-secondary-container font-label-caps text-label-caps uppercase font-bold tracking-wider shadow-sm">Situs Kuno Abad ke-7</span>
+</div>
+<button class="fav-btn absolute top-space-sm right-space-sm w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface-variant hover:text-error flex items-center justify-center transition-colors shadow-sm" title="Simpan ke Favorit">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+<div class="absolute bottom-space-sm right-space-sm bg-primary/80 backdrop-blur-md px-space-xs py-0.5 rounded text-on-primary font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">castle</span> Benteng Karang Laut
+              </div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between gap-space-xs mb-1">
+<span class="font-label-caps text-label-caps uppercase text-secondary font-bold">Aceh Besar • Ladong</span>
+<div class="flex items-center gap-1 text-primary font-bold font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-[16px] text-secondary fill-1">star</span>
+<span>4.6</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-normal">(140)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold group-hover:text-secondary transition-colors line-clamp-1">Benteng Indra Patra</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">Benteng pertahanan masa Kerajaan Lamuri abad ke-7 yang dibangun menggunakan perekat kapur dan putih telur, menghadap Selat Malaka.</p>
+</div>
+<div class="pt-space-sm flex items-center justify-between mt-auto">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Biaya Retribusi</span>
+<span class="font-title-md text-title-md text-primary font-bold">Rp5.000</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="open-detail-btn px-space-md py-space-xs rounded bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-lg text-label-lg font-semibold transition-colors" data-id="6">Detail</button>
+<button class="px-space-md py-space-xs rounded bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary font-label-lg text-label-lg font-bold transition-all shadow-sm">Pesan</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 7: Paket Tour Healing Alam Aceh Besar -->
+<article class="destination-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_8px_-2px_rgba(16,54,41,0.06),0_1px_3px_-1px_rgba(16,54,41,0.04)] hover:shadow-[0_12px_24px_-4px_rgba(16,54,41,0.10)] transition-all flex flex-col md:col-span-2" data-category="alam" data-price="350000" data-rating="4.9" data-region="aceh-besar">
+<div class="grid grid-cols-1 md:grid-cols-12">
+<div class="md:col-span-5 relative w-full aspect-[16/10] md:aspect-auto h-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Tourists trekking along a scenic cliff trail overlooking Lampuuk beach and turquoise Indian Ocean in Aceh Besar with certified local guide in green uniform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQOxQBTDfVn6LHq163oAUZV4tADp_R8zqXCk7r-nTzumGf3Zk0dUGZGBFCfYGERX6mVFF_EjqC14-F6-_v06kkX_3ZzWTgP0cryB31PL-v9_8RAKGfBm4MQqUn6HYixtzKBDSlwrBgmyYF_WFK1enBQX-BgcFK_mXmi-y0ZeaEIl6htfZG7yRbJ-Cub1L7ml-eRnmVDAUmdeScEwLKTq8DzBUoFq68fS0tcH7Toluz">
+<div class="absolute top-space-sm left-space-sm flex flex-col gap-1 items-start">
+<span class="px-space-xs py-0.5 rounded bg-primary-container text-secondary-container font-label-caps text-label-caps uppercase font-bold tracking-wider shadow-sm">Paket Tour • 2 Hari 1 Malam</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-caps text-label-caps font-semibold shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-secondary">verified_user</span> Pemandu HPI Tersertifikasi
+                  </span>
+</div>
+</div>
+<div class="md:col-span-7 p-space-md md:p-space-lg flex flex-col justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between gap-space-xs mb-1">
+<span class="font-label-caps text-label-caps uppercase text-secondary font-bold">Aceh Besar • Lhoknga, Lampuuk &amp; Seulawah</span>
+<div class="flex items-center gap-1 text-primary font-bold font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-[16px] text-secondary fill-1">star</span>
+<span>4.9</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-normal">(94 ulasan)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold group-hover:text-secondary transition-colors">Paket Eksklusif "Healing Alam &amp; Bahari Aceh Besar"</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">Jelajahi keindahan tersembunyi Pantai Tebing Lampuuk, Gua Sarang Burung Walet, dan mandi air terjun pegunungan. Termasuk transportasi full AC, 4x makan khas Kuah Beulangong, dan dokumentasi drone.</p>
+<!-- Tour Inclusions -->
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-[14px] text-primary">directions_car</span> Transport HiAce
+                    </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-[14px] text-primary">restaurant</span> Halal Meals
+                    </span>
+<span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded bg-surface-container text-on-surface font-label-md text-label-md">
+<span class="material-symbols-outlined text-[14px] text-primary">photo_camera</span> Drone Footage
+                    </span>
+</div>
+</div>
+<div class="pt-space-md flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Mulai Dari (Min. 4 Orang)</span>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Rp350.000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ orang</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="open-detail-btn px-space-md py-space-sm rounded bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-lg text-label-lg font-semibold transition-colors" data-id="7">Lihat Itinerary</button>
+<button class="px-space-lg py-space-sm rounded bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary font-label-lg text-label-lg font-bold transition-all shadow-md">Reservasi Sekarang</button>
+</div>
+</div>
+</div>
+</div>
+</article>
+<!-- Card 8: Gampong Wisata Nusa -->
+<article class="destination-card group bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_2px_8px_-2px_rgba(16,54,41,0.06),0_1px_3px_-1px_rgba(16,54,41,0.04)] hover:shadow-[0_12px_24px_-4px_rgba(16,54,41,0.10)] transition-all flex flex-col" data-category="kuliner" data-price="15000" data-rating="4.8" data-region="aceh-besar">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Charming village scene at Gampong Nusa in Aceh Besar with colorful traditional houses, clean eco-friendly paved paths, organic vegetable gardens and hospitable villagers weaving crafts" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWeGuJ7_FTqFqyDG7cjISrtKOaBca4uTeedae30N-e-cwujrMwWDbqgR9hlywCEQGsXb7wvITZit3WuXlzx44BjS4nKgaVkrEQcen1Yeg6JlsG5AyaBFuWU7EBkN8LwGXfqYqHiJYCmY0LOohy8CnVpDaoWjS2-c1KebAoETOemACGMSPjwEN-C9eCp1CalrVoZQnBbs8vnt7tVBBk4AJYz8EgaSzf481-a1ZziKmz">
+<div class="absolute top-space-sm left-space-sm flex flex-col gap-1 items-start">
+<span class="px-space-xs py-0.5 rounded bg-primary-container text-on-primary font-label-caps text-label-caps font-semibold shadow-sm">Desa Wisata Komunitas</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-caps text-label-caps font-semibold shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-secondary">eco</span> Eco Tourism Juara ADWI
+                </span>
+</div>
+<button class="fav-btn absolute top-space-sm right-space-sm w-9 h-9 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-on-surface-variant hover:text-error flex items-center justify-center transition-colors shadow-sm" title="Simpan ke Favorit">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+<div class="absolute bottom-space-sm right-space-sm bg-primary/80 backdrop-blur-md px-space-xs py-0.5 rounded text-on-primary font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">psychology</span> Edukasi Kerajinan Daur Ulang
+              </div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between gap-space-xs mb-1">
+<span class="font-label-caps text-label-caps uppercase text-secondary font-bold">Aceh Besar • Lhoknga</span>
+<div class="flex items-center gap-1 text-primary font-bold font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-[16px] text-secondary fill-1">star</span>
+<span>4.8</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-normal">(88)</span>
+</div>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold group-hover:text-secondary transition-colors line-clamp-1">Gampong Wisata Nusa</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-1">Desa peraih penghargaan nasional berbasis pengelolaan sampah kreatif, kuliner tradisional khas Meuseukat dan Keukarah, serta homestay ramah keluarga.</p>
+</div>
+<div class="pt-space-sm flex items-center justify-between mt-auto">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Donasi Masuk Gampong</span>
+<span class="font-title-md text-title-md text-primary font-bold">Rp15.000</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="open-detail-btn px-space-md py-space-xs rounded bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-lg text-label-lg font-semibold transition-colors" data-id="8">Detail</button>
+<button class="px-space-md py-space-xs rounded bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary font-label-lg text-label-lg font-bold transition-all shadow-sm">Pesan</button>
+</div>
+</div>
+</div>
+</article>
+</div>
+<!-- EMPTY STATE SIMULATION (Hidden unless filters yield zero) -->
+<div class="hidden flex-col items-center justify-center text-center p-space-2xl bg-surface-container-lowest rounded-xl shadow-sm gap-space-md" id="emptyState">
+<div class="w-16 h-16 rounded-full bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[36px]">travel_explore</span>
+</div>
+<div class="max-w-md">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Tidak Ada Destinasi Sesuai Filter</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Coba longgarkan kriteria pencarian Anda, pilih rentang harga lain, atau hapus kata kunci yang terlalu spesifik.</p>
+</div>
+<button class="px-space-lg py-space-sm rounded-lg bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary font-label-lg text-label-lg font-bold transition-all shadow-sm" id="resetFromEmptyBtn">
+            Kembalikan Semua Pilihan Wisata
+          </button>
+</div>
+<!-- PAGINATION BAR -->
+<nav class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-lg">
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Halaman <span class="font-bold text-primary">1</span> dari <span class="font-bold text-primary">3</span> (Total 21 Wisata)
+          </p>
+<div class="flex items-center gap-space-xs">
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container text-on-surface-variant opacity-50 cursor-not-allowed font-label-lg text-label-lg flex items-center gap-1" disabled="">
+<span class="material-symbols-outlined text-[16px]">chevron_left</span> Sebelumnya
+            </button>
+<button class="w-9 h-9 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg font-bold shadow-xs">1</button>
+<button class="w-9 h-9 rounded-lg bg-surface-container-lowest hover:bg-surface-container text-primary font-label-lg text-label-lg transition-colors">2</button>
+<button class="w-9 h-9 rounded-lg bg-surface-container-lowest hover:bg-surface-container text-primary font-label-lg text-label-lg transition-colors">3</button>
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container-lowest hover:bg-surface-container text-primary font-label-lg text-label-lg font-semibold flex items-center gap-1 transition-colors">
+              Berikutnya <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</nav>
+<!-- Cultural Travel Etiquette Callout Card -->
+<div class="w-full bg-gradient-to-r from-primary-container to-primary text-on-primary p-space-lg rounded-xl shadow-md flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg">
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-secondary-container text-on-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[28px]">verified_user</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md font-bold text-secondary-container">Adat &amp; Tata Krama Wisatawan Meurah Silu</h4>
+<p class="font-body-sm text-body-sm text-inverse-on-surface max-w-xl mt-1">Saat berkunjung ke situs sejarah dan kawasan pesisir Aceh, kenakan pakaian sopan menutup aurat dan beri jeda berwisata saat panggilan azan berkumandang.</p>
+</div>
+</div>
+<button class="shrink-0 px-space-md py-space-xs rounded bg-surface-container-lowest text-primary font-label-lg text-label-lg font-bold hover:bg-secondary-container hover:text-on-secondary-fixed transition-colors">
+            Baca Panduan Syariah
+          </button>
+</div>
+</main>
+</div>
+</section>
+<!-- QUICK PREVIEW DETAIL MODAL / DRAWER (Hidden initially, triggered via "Detail" button) -->
+<div class="fixed inset-0 z-50 hidden items-center justify-center p-space-md bg-inverse-surface/60 backdrop-blur-sm transition-opacity" id="quickDetailModal">
+<div class="bg-surface-container-lowest rounded-xl max-w-3xl w-full max-h-[921px] overflow-y-auto shadow-2xl flex flex-col relative animate-in fade-in zoom-in duration-200">
+<!-- Modal Header Close -->
+<div class="sticky top-0 z-20 bg-surface-container-lowest/90 backdrop-blur-md px-space-lg py-space-md flex items-center justify-between border-b border-surface-container">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[22px]">explore</span>
+<span class="font-title-md text-title-md text-primary font-bold">Ringkasan Cepat Destinasi</span>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container hover:bg-surface-container-high flex items-center justify-center text-on-surface transition-colors" id="closeModalBtn">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Modal Body Content -->
+<div class="p-space-lg flex flex-col gap-space-md">
+<div class="w-full aspect-video rounded-lg overflow-hidden bg-surface-container-high relative">
+<img class="w-full h-full object-cover" data-alt="Detailed perspective of Aceh tourism highlight showing pristine architecture, clean surroundings and smiling local Acehnese hosts" id="modalImage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYrlKujEAIwK0oQ2ZfP5IRmwZAWm8QctkQkrhZa4KHBWwJUe3Orz5dv8cdskk2ncRP1xChIkbi4zyO6GslpJqyKwwSU3bC76K-xOyQtpMGjjlmdJsKWZtwk3hUqMjPtASEE5IYVyEg16iB4r0067FirTB6hqZ5ax4UTto-Z7HhVKhc5QU0EU6SC_22fbDxasY9AeDmZ1Et8_3IhQgfnDSUcF2idpg9Rh6LA3XKr_Bs">
+<div class="absolute bottom-space-sm left-space-sm bg-primary/80 backdrop-blur-md px-space-sm py-space-xs rounded text-on-primary font-label-md text-label-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span> Terverifikasi AtjehTrail Quality Check
+          </div>
+</div>
+<div>
+<div class="flex items-center justify-between gap-space-sm mb-1">
+<span class="font-label-caps text-label-caps uppercase text-secondary font-bold" id="modalLocation">Aceh Heritage Zone</span>
+<div class="flex items-center gap-1 text-primary font-bold font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-[18px] text-secondary fill-1">star</span>
+<span id="modalRating">4.8</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-normal">(Ulasan Wisatawan)</span>
+</div>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary font-bold" id="modalTitle">Nama Destinasi Aceh</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed" id="modalDesc">
+            Deskripsi lengkap akan disajikan di sini menjelaskan keunikan arsitektur, nilai spiritual, kisah masa lalu, serta fasilitas ramah keluarga yang tersedia.
+          </p>
+</div>
+<!-- Highlight Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm py-space-xs">
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Musholla</span>
+<span class="font-label-lg text-label-lg text-primary font-bold">Tersedia Bersih</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Parkir Mobil</span>
+<span class="font-label-lg text-label-lg text-primary font-bold">Rp5.000 / unit</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Akses Kursi Roda</span>
+<span class="font-label-lg text-label-lg text-primary font-bold">Sebagian Area</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Guide Syariah</span>
+<span class="font-label-lg text-label-lg text-primary font-bold">Dapat Dipesan</span>
+</div>
+</div>
+<!-- Modal Action Footer -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-md mt-space-sm border-t border-surface-container">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Biaya Tiket / Retribusi Resmi</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold" id="modalPrice">Rp10.000 / orang</span>
+</div>
+<div class="flex items-center gap-space-sm w-full sm:w-auto">
+<button class="flex-1 sm:flex-initial px-space-xl py-space-sm rounded-lg bg-secondary-container hover:bg-secondary text-on-secondary-fixed hover:text-on-secondary font-title-md text-title-md font-bold transition-all shadow-md" id="bookTourBtn">
+              Pesan Tiket / Tour Ini
+            </button>
+<button class="px-space-md py-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg" id="closeModalSecondary">
+              Tutup
+            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Client-Side Vanilla Interactivity Script -->
+<script>
+    (function initExploreScreen() {
+      // Data dictionary for modal previews
+      const destinationData = {
+        "1": {
+          title: "Rumoh Aceh & Museum Negeri",
+          location: "Banda Aceh • Baiturrahman",
+          rating: "4.8 (340 ulasan)",
+          price: "Rp10.000 / orang",
+          desc: "Kompleks rumah tradisional panggung khas Aceh tempo doeloe yang dibangun tanpa paku dengan pasak kayu kokoh. Tempat ini menyimpan Lonceng Cakra Donya hadiah Laksamana Cheng Ho dari Dinasti Ming, naskah kuno beraksara Jawi, serta mahkota Kesultanan Aceh Darussalam.",
+          imgPrompt: "Detailed shot of Rumoh Aceh museum stilt house with intricate floral wood carvings and traditional bell under sunny Banda Aceh sky"
+        },
+        "2": {
+          title: "Pantai Lhok Mee Pasir Putih",
+          location: "Aceh Besar • Mesjid Raya (Ladong)",
+          rating: "4.7 (512 ulasan)",
+          price: "Rp5.000 / orang",
+          desc: "Terkenal dengan gugusan pohon bakau (geurutee) yang tumbuh menjulang di atas air laut biru toska berpasir putih lembut. Sangat cocok untuk swafoto di atas jembatan kayu terapung, berkano santai, atau mencicipi ikan bakar gurih racikan ibu-ibu gampong.",
+          imgPrompt: "Close-up perspective of white sand beach and coastal mangrove trees rooted in clear turquoise water at Pantai Lhok Mee Aceh"
+        },
+        "3": {
+          title: "Kerkhof Peucut (Makam Militer Sejarah)",
+          location: "Banda Aceh • Baiturrahman",
+          rating: "4.6 (180 ulasan)",
+          price: "Gratis (Infaq Sukarela)",
+          desc: "Monumen bersejarah saksi kehebatan perang rakyat Aceh membendung kolonialisme Belanda. Lebih dari 2.200 serdadu militer dimakamkan di sini, termasuk Jenderal Kohler. Di pintu gerbang tertulis nama-nama serdadu dalam huruf Belanda dan Melayu kuno.",
+          imgPrompt: "Historical monument arch of Kerkhof Peucut cemetery in Banda Aceh with Dutch inscriptions and green landscaped peaceful grounds"
+        },
+        "4": {
+          title: "Air Terjun Seuhom",
+          location: "Aceh Besar • Lhoong",
+          rating: "4.7 (220 ulasan)",
+          price: "Rp10.000 / orang",
+          desc: "Air terjun alami tersembunyi dengan debit air melimpah dari pegunungan Bukit Barisan. Diapit oleh perkebunan durian lokal yang manis legit saat musim panen tiba. Tersedia gazebo santai dan kolam alami yang aman diarungi keluarga.",
+          imgPrompt: "Refreshing waterfall in Lhoong Aceh Besar plunging into a jade pool with tropical trees and wild jungle greenery"
+        },
+        "5": {
+          title: "Masjid Raya Baiturrahman",
+          location: "Banda Aceh • Titik Nol",
+          rating: "4.9 (1.890 ulasan)",
+          price: "Gratis (Buka 24 Jam)",
+          desc: "Pusat spiritual dan simbol keteguhan hati warga Serambi Mekkah. Memiliki 7 kubah megah hitam pekat, menara utama setinggi 35 meter, dan 12 payung elektrik raksasa pembuka otomatis. Nikmati kesejukan lantai marmer serta kolam air mancur berkilau.",
+          imgPrompt: "Illuminated nighttime view of Baiturrahman Grand Mosque in Banda Aceh with reflecting marble plaza and electric umbrella canopies"
+        },
+        "6": {
+          title: "Benteng Indra Patra",
+          location: "Aceh Besar • Pesisir Ladong",
+          rating: "4.6 (140 ulasan)",
+          price: "Rp5.000 / orang",
+          desc: "Peninggalan kerajaan pra-Islam di Aceh abad ke-7 masehi yang menghadap Selat Malaka. Dinding setebal dua meter dibangun menggunakan batu karang gunung yang direkatkan dengan adonan putih telur dan getah pepohonan purba.",
+          imgPrompt: "Ancient stone walls of Indra Patra Fortress overlooking the ocean under blue sky in Aceh Besar"
+        },
+        "7": {
+          title: "Paket Wisata Healing Alam Aceh Besar (2D1N)",
+          location: "Aceh Besar • Lhoknga & Lampuuk",
+          rating: "4.9 (94 ulasan)",
+          price: "Rp350.000 / orang",
+          desc: "Paket lengkap all-inclusive termasuk transportasi mobil nyaman, makan siang kari kambing Kuah Beulangong, eksplorasi Gua Ie Leubeue, pemandu bersertifikasi syariah HPI, tiket seluruh objek, dan file foto drone sinematik beresolusi tinggi.",
+          imgPrompt: "Happy travel group walking alongside local guide on cliffs of Aceh overlooking the sparkling sea"
+        },
+        "8": {
+          title: "Gampong Wisata Nusa",
+          location: "Aceh Besar • Lhoknga",
+          rating: "4.8 (88 ulasan)",
+          price: "Rp15.000 / orang",
+          desc: "Pemenang Anugerah Desa Wisata Indonesia (ADWI) berbasis partisipasi komunitas dan kesadaran lingkungan. Pengunjung dapat belajar menganyam kerajinan daur ulang plastik, membuat dodol Meuseukat, dan menginap di homestay otentik warga gampong.",
+          imgPrompt: "Lush eco-village street in Gampong Nusa Aceh with green tropical flora, traditional wood homes and handmade textile displays"
+        }
+      };
+
+      // Modal elements
+      const modal = document.getElementById("quickDetailModal");
+      const closeModalBtn = document.getElementById("closeModalBtn");
+      const closeModalSecondary = document.getElementById("closeModalSecondary");
+      const modalTitle = document.getElementById("modalTitle");
+      const modalLocation = document.getElementById("modalLocation");
+      const modalRating = document.getElementById("modalRating");
+      const modalPrice = document.getElementById("modalPrice");
+      const modalDesc = document.getElementById("modalDesc");
+      const modalImage = document.getElementById("modalImage");
+      const bookTourBtn = document.getElementById("bookTourBtn");
+
+      // Bind detail buttons
+      document.querySelectorAll(".open-detail-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const id = btn.getAttribute("data-id");
+          const data = destinationData[id];
+          if (data) {
+            modalTitle.textContent = data.title;
+            modalLocation.textContent = data.location;
+            modalRating.textContent = data.rating;
+            modalPrice.textContent = data.price;
+            modalDesc.textContent = data.desc;
+            modalImage.setAttribute("data-alt", data.imgPrompt);
+            modal.classList.remove("hidden");
+            modal.classList.add("flex");
+          }
+        });
+      });
+
+      function hideModal() {
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+      }
+
+      closeModalBtn.addEventListener("click", hideModal);
+      closeModalSecondary.addEventListener("click", hideModal);
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) hideModal();
+      });
+
+      bookTourBtn.addEventListener("click", () => {
+        alert("Pemesanan diteruskan ke Concierge AtjehTrail via WhatsApp/Sistem Reservasi.");
+        hideModal();
+      });
+
+      // Favorite button toggle
+      document.querySelectorAll(".fav-btn").forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const icon = btn.querySelector(".material-symbols-outlined");
+          if (icon.textContent === "favorite_border") {
+            icon.textContent = "favorite";
+            icon.classList.add("text-error");
+            icon.style.fontVariationSettings = "'FILL' 1";
+          } else {
+            icon.textContent = "favorite_border";
+            icon.classList.remove("text-error");
+            icon.style.fontVariationSettings = "'FILL' 0";
+          }
+        });
+      });
+
+      // View switcher
+      const viewGridBtn = document.getElementById("viewGridBtn");
+      const viewListBtn = document.getElementById("viewListBtn");
+      const viewMapBtn = document.getElementById("viewMapBtn");
+      const catalogGrid = document.getElementById("catalogGrid");
+      const mapViewContainer = document.getElementById("mapViewContainer");
+
+      function setActiveViewBtn(btn) {
+        [viewGridBtn, viewListBtn, viewMapBtn].forEach(b => {
+          b.className = "p-space-xs rounded-md text-on-surface-variant hover:text-on-surface transition-colors";
+        });
+        btn.className = "p-space-xs rounded-md bg-primary-container text-on-primary shadow-xs transition-colors";
+      }
+
+      viewGridBtn.addEventListener("click", () => {
+        setActiveViewBtn(viewGridBtn);
+        mapViewContainer.classList.add("hidden");
+        catalogGrid.classList.remove("hidden");
+        catalogGrid.className = "grid grid-cols-1 md:grid-cols-2 gap-space-lg w-full";
+      });
+
+      viewListBtn.addEventListener("click", () => {
+        setActiveViewBtn(viewListBtn);
+        mapViewContainer.classList.add("hidden");
+        catalogGrid.classList.remove("hidden");
+        catalogGrid.className = "grid grid-cols-1 gap-space-md w-full";
+      });
+
+      viewMapBtn.addEventListener("click", () => {
+        setActiveViewBtn(viewMapBtn);
+        mapViewContainer.classList.remove("hidden");
+        mapViewContainer.classList.add("flex");
+      });
+
+      // Search & Live Filter mechanism
+      const searchInput = document.getElementById("searchInput");
+      const regionSelect = document.getElementById("regionSelect");
+      const clearSearchBtn = document.getElementById("clearSearchBtn");
+      const emptyState = document.getElementById("emptyState");
+      const countDisplay = document.getElementById("countDisplay");
+      const cards = document.querySelectorAll(".destination-card");
+
+      function filterCatalog() {
+        const query = searchInput.value.toLowerCase().trim();
+        const selectedRegion = regionSelect.value;
+        let visibleCount = 0;
+
+        cards.forEach(card => {
+          const cardText = card.textContent.toLowerCase();
+          const cardRegion = card.getAttribute("data-region");
+          const matchesQuery = query === "" || cardText.includes(query);
+          const matchesRegion = selectedRegion === "all" || cardRegion === selectedRegion;
+
+          if (matchesQuery && matchesRegion) {
+            card.classList.remove("hidden");
+            visibleCount++;
+          } else {
+            card.classList.add("hidden");
+          }
+        });
+
+        countDisplay.textContent = `Menampilkan ${visibleCount} dari 21 Wisata Pilihan`;
+
+        if (visibleCount === 0) {
+          emptyState.classList.remove("hidden");
+          emptyState.classList.add("flex");
+        } else {
+          emptyState.classList.add("hidden");
+          emptyState.classList.remove("flex");
+        }
+      }
+
+      searchInput.addEventListener("input", filterCatalog);
+      regionSelect.addEventListener("change", filterCatalog);
+
+      clearSearchBtn.addEventListener("click", () => {
+        searchInput.value = "";
+        filterCatalog();
+      });
+
+      // Reset buttons
+      function resetFilters() {
+        searchInput.value = "";
+        regionSelect.value = "all";
+        document.querySelectorAll("input[type='checkbox']").forEach(cb => cb.checked = true);
+        const radioAll = document.querySelector("input[name='price_range'][value='all']");
+        if (radioAll) radioAll.checked = true;
+        filterCatalog();
+      }
+
+      document.getElementById("resetAllFilters")?.addEventListener("click", resetFilters);
+      document.getElementById("resetSidebarBtn")?.addEventListener("click", resetFilters);
+      document.getElementById("resetFromEmptyBtn")?.addEventListener("click", resetFilters);
+
+      // Pill removals
+      document.querySelectorAll(".remove-pill").forEach(btn => {
+        btn.addEventListener("click", function() {
+          const pill = this.closest(".filter-pill");
+          if (pill) pill.remove();
+        });
+      });
+
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container text-on-surface pt-space-2xl pb-space-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="max-w-7xl mx-auto px-margin flex flex-col gap-space-2xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl"><div class="lg:col-span-2 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-xl bg-primary-container flex items-center justify-center text-secondary-container"><span class="material-symbols-outlined text-[20px]">temple_hindu</span></div><span class="font-headline-sm text-headline-sm text-primary tracking-tight">AtjehTrail</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Platform ekosistem kurasi pariwisata berkelanjutan untuk Banda Aceh &amp; Aceh Besar. Menyajikan perjumpaan budaya, keheningan spiritual, bahari tersembunyi, dan pemberdayaan pemandu lokal berbasis kearifan syariah yang otentik.</p><div class="flex items-center gap-space-sm pt-space-xs"><div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-surface-container-lowest text-primary text-label-caps font-label-caps uppercase border border-primary-container/20 shadow-sm"><span class="material-symbols-outlined text-[16px] text-primary-container">verified</span>Syariah Verified Concierge</div><div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-lg bg-surface-container-lowest text-secondary text-label-caps font-label-caps uppercase border border-secondary-container/30 shadow-sm"><span class="material-symbols-outlined text-[16px] text-secondary">eco</span>Eco Heritage Tour</div></div></div><div class="flex flex-col gap-space-sm"><h4 class="font-title-md text-title-md text-primary font-bold tracking-tight">Jelajah &amp; Pilihan</h4><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary transition-colors"><a data-path="jelajah" href="#">Destinasi Populer Banda Aceh</a></li><li class="hover:text-primary transition-colors"><a data-path="jelajah" href="#">Pantai &amp; Karang Aceh Besar</a></li><li class="hover:text-primary transition-colors"><a data-path="paket-tour" href="#">Penginapan &amp; Homestay Syariah</a></li><li class="hover:text-primary transition-colors"><a data-path="paket-tour" href="#">Pemandu Lokal Bersertifikat</a></li><li class="hover:text-primary transition-colors"><a data-path="paket-tour" href="#">Wisata Sejarah Tsunami &amp; Heritage</a></li></ul></div><div class="flex flex-col gap-space-sm"><h4 class="font-title-md text-title-md text-primary font-bold tracking-tight">Partisipasi &amp; Mitra</h4><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary transition-colors"><a data-path="usul-destinasi" href="#">Formulir Usulan Destinasi Baru</a></li><li class="hover:text-primary transition-colors"><a data-path="kemitraan-pemandu" href="#">Pendaftaran Mitra Tour Guide</a></li><li class="hover:text-primary transition-colors"><a data-path="kemitraan-pemandu" href="#">Kerjasama Komunitas Gampong</a></li><li class="hover:text-primary transition-colors"><a data-path="tentang-kami" href="#">Tentang Tim &amp; Visi Kami</a></li><li class="hover:text-primary transition-colors"><a data-path="tentang-kami" href="#">Hubungi Layanan Concierge</a></li></ul></div><div class="flex flex-col gap-space-sm"><h4 class="font-title-md text-title-md text-primary font-bold tracking-tight">Etika &amp; Panduan</h4><div class="p-space-md rounded-xl bg-surface-container-lowest text-on-surface shadow-[0_2px_8px_-2px_rgba(16,54,41,0.06)]"><div class="flex items-center gap-space-xs text-primary font-semibold font-label-lg text-label-lg mb-space-xs"><span class="material-symbols-outlined text-[18px]">verified_user</span>Etika Wisatawan Syariat</div><p class="font-label-md text-label-md text-on-surface-variant leading-relaxed">Hormati jadwal shalat fardhu, gunakan busana sopan menutup aurat di tempat umum, dan junjung adat meunasah/gampong setempat demi keberkahan perjalanan Anda.</p></div></div></div><div class="pt-space-lg border-t border-outline-variant/30 flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-label-md text-label-md"><div>© 2025 AtjehTrail Ekosistem Pariwisata Aceh. Hak Cipta Dilindungi Undang-Undang.</div><div class="flex items-center gap-space-lg"><a class="hover:text-primary transition-colors" href="#">Kebijakan Privasi</a><a class="hover:text-primary transition-colors" href="#">Syarat &amp; Ketentuan</a><a class="hover:text-primary transition-colors" href="#">Pedoman Halal Tourism</a></div></div></div></footer>
+
+
+
+</body></html>
